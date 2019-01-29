@@ -1,0 +1,3093 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>vestjyskBank - The European Bank </title>
+  <link rel="stylesheet" type="text/css" href="dynamic-big.css" media="screen and (min-width:950px)">
+  <link rel="stylesheet" type="text/css" href="dynamic.css" media="screen and (min-width:10px) and (max-width:950px)">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  <div id="pageContainer">
+      <header>
+
+        <div id="topHead">
+            <p id="contact-login"><img src="img/tele.png"> +0015000580006/08000 40 000</p>
+
+
+            <div id="social">
+              <p id="contact-login"><img src="img/maill.png"> vestjyskBankenquiries@vestjyskBank.com</p>
+
+            </div>
+        </div>
+
+        <div id="secondHead">
+            <a href="index.html"><img src="img/bank-logo.png" alt="naturebanklogo" id="logo" ></a>
+
+            <div id="secondThings">
+
+
+
+              <div class="items" id="en">
+                <select>
+                  <option>ENGLISH</option>
+                  <option>FRENCH</option>
+                  <option>PORTUGESE</option>
+                  <option>SPANISH</option>
+                </select>
+              </div>
+              <!-- Small SCreen -->
+              <div class="items" id="menu">
+                <p>Menu</p>
+                <img src="img/menu.png">
+              </div>
+
+
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+          <script>
+            $(document).ready(function(){
+              $("#edb,#everydayB").hover(function(){
+                $("#everydayB").show();
+              }, function(){
+                  $("#everydayB").hide();
+              });
+
+                //stick when currentAccount is hovered
+              $("#currentAccount, #secondSec-cA").hover(function(){
+                $("#secondSec-cA").show();
+                $("#secondSec").hide();
+              }, function(){
+                $("#secondSec-cA").hide();
+                $("#secondSec").show();
+              });
+
+              //stick when savingsAccount is hovered
+            $("#savingsAccount,#secondSec-sA").hover(function(){
+              $("#secondSec-sA").show();
+              $("#secondSec").hide();
+            }, function(){
+              $("#secondSec-sA").hide();
+              $("#secondSec").show();
+            });
+
+            //stick when studentsavingsAccount is hovered
+            $("#studentSavingsAcc").hover(function(){
+              $("#thirdSec-ssA").show();
+
+            }, function(){
+              $("#thirdSec-ssA").hide();
+            });
+                /*student savings account*/
+            $("#thirdSec-ssA").hover(function(){
+              $("#thirdSec-ssA").show();
+            },function(){
+              $("#thirdSec-ssA").hide();
+            });
+
+            /* EveryDay Banking Menu - currentAccount */
+              /*adv current acc */
+
+              $("#advCurrentAcc,#secondSec-acA").hover(function(){
+                $("#secondSec-acA").show();
+                $("#secondSec-pcA").hide();
+              }, function(){
+                $("#secondSec-acA").hide();
+              });
+
+              $("#secondSec-acA").hover(function(){
+                $("#secondSec").hide();
+                $("#secondSec-acA").show();
+                $("#secondSec-cA").show();
+              });
+
+              /*Premier current account */
+              $("#prmCurrentAcc").hover(function(){
+                $("#secondSec-pcA").show();
+                $("#secondSec-acA").hide();
+              },function(){
+                $("#secondSec-pcA").hide();
+              });
+
+              $("#secondSec-pcA").hover(function(){
+                $("#secondSec-pcA").show();
+                $("#secondSec-cA").show();
+                $("#secondSec").hide();
+              });
+
+
+              /*Payments And Transfers Hover */
+              $("#pat,#paymentsNTransfers-menu").hover(function(){
+                $("#paymentsNTransfers-menu").show();
+              }, function(){
+                  $("#paymentsNTransfers-menu").hide();
+              });
+
+              /*Ways to bank Hover */
+              $("#wtb,#ways2bank-menu").hover(function(){
+                $("#ways2bank-menu").show();
+              }, function(){
+                  $("#ways2bank-menu").hide();
+              });
+
+              /*Products and Services Hover */
+              $("#pas,#prodNServices-menu").hover(function(){
+                $("#prodNServices-menu").show();
+              }, function(){
+                  $("#prodNServices-menu").hide();
+              });
+
+                  /*When CArds iH */
+                $("#cards").hover(function(){
+                  $("#secondSec-c").show();
+                  $("#secondSecPAS").hide();
+                },function(){
+                    $("#secondSec-c").hide();
+                    $("#secondSecPAS").show();
+                });
+
+                /*stick on hover-secondSec-C*/
+                $("#secondSec-c").hover(function(){
+                  $("#secondSec-c").show();
+                  $("#secondSecPAS").hide();
+                },function(){
+                  $("#secondSec-c").hide();
+                  $("#secondSecPAS").show();
+                });
+
+                /*When prepaidCards iH */
+              $("#prepaidCards").hover(function(){
+                $("#secondSec-cPC").show();
+
+              },function(){
+                $("#secondSec-cPC").hide();
+              });
+
+              /*stick on hover-secondSec-cPC*/
+              $("#secondSec-cPC").hover(function(){
+                $("#secondSec-cPC").show();
+                $("#secondSec-c").show();
+                $("#secondSecPAS").hide();
+              },function(){
+                $("#secondSec-cPC").hide();
+                $("#secondSec-c").hide();
+                $("#secondSecPAS").show();
+              });
+
+              /*When investment solutions iH */
+            $("#investSolutions").hover(function(){
+              $("#secondSec-is").show();
+              $("#secondSecPAS").hide();
+            },function(){
+                $("#secondSec-is").hide();
+                $("#secondSecPAS").show();
+            });
+
+            /*stick on hover-secondSec-is*/
+            $("#secondSec-is").hover(function(){
+              $("#secondSec-is").show();
+              $("#secondSecPAS").hide();
+            },function(){
+              $("#secondSec-is ").hide();
+              $("#secondSecPAS").show();
+            });
+
+
+
+              /*Help and security */
+              $("#has,#helpNSecurity-menu").hover(function(){
+                $("#helpNSecurity-menu").show();
+              },function(){
+                $("#helpNSecurity-menu").hide();
+              });
+
+
+              /*help centre hover- show this*/
+              $("#helpCentre").hover(function(){
+                  $("#secondSecc").hide();
+                $("#secondSec-hC").show();
+
+              },function(){
+                $("#secondSec-hC").hide();
+                $("#secondSecc").show();
+              });
+                /*stick on hover-secondSec-hC*/
+                $("#secondSec-hC").hover(function(){
+                  $("#secondSec-hC").show();
+                  $("#secondSecc").hide();
+                },function(){
+                  $("#secondSec-hC").hide();
+                  $("#secondSecc").show();
+                });
+
+              /*security centre hover*/
+              $("#securityCentre").hover(function(){
+                  $("#secondSecc").hide();
+                $("#secondSec-sC").show();
+
+              },function(){
+                $("#secondSec-sC").hide();
+                $("#secondSecc").show();
+              });
+
+                  /*Stick on hover-secondSec-sC*/
+                  $("#secondSec-sC").hover(function(){
+                    $("#secondSec-sC").show();
+                    $("#secondSecc").hide();
+                  },function(){
+                    $("#secondSec-sC").hide();
+                    $("#secondSecc").show();
+                  });
+
+
+            /*scams on hover*/
+            $("#scams").hover(function(){
+              $("#secondSec-sCs").show();
+            },function(){
+              $("#secondSec-sCs").hide();
+            });
+            /*Stick on hover-secondSec-sCs*/
+            $("#secondSec-sCs").hover(function(){
+              $("#secondSec-sCs").show();
+
+            },function(){
+              $("#secondSec-sCs").hide();
+
+            });
+
+            /*SecureBannking on hover*/
+            $("#secureBanking").hover(function(){
+              $("#secondSec-sCsb").show();
+            },function(){
+              $("#secondSec-sCsb").hide();
+            });
+            /*Stick on hover-secondSec-sC*/
+            $("#secondSec-sCsb").hover(function(){
+              $("#secondSec-sCsb").show();
+
+            },function(){
+              $("#secondSec-sCsb").hide();
+
+            });
+
+
+
+
+
+
+
+            });
+
+
+            /*When device screen is not laptop size */
+            $("#menu").click(function(){
+              if($("#loginContainer").css('display') == 'block' || $("#contactContainer").css('display') == 'block'){
+                $("#loginContainer").hide();
+                $("#contactContainer").hide();
+              } else {
+                $("#menuContainer").slideToggle();
+              }
+
+
+                /*Everyday Banking cliked*/
+              $("#edBanking").click(function(){
+                $("#menu-m").hide();
+                $("#menu-everydayB").show();
+
+              });
+
+              /*paymentsNTransfers cliked 2*/
+            $("#pNt").click(function(){
+              $("#menu-m").hide();
+              $("#menu-paymentsNTransfers").show();
+
+            });
+
+            /*ways2bank cliked 3*/
+            $("#wTb").click(function(){
+              $("#menu-m").hide();
+              $("#menu-ways2bank").show();
+
+            });
+
+            /*prodNServices cliked 3*/
+            $("#pAs").click(function(){
+              $("#menu-m").hide();
+              $("#menu-prodNServices").show();
+
+            });
+            /*pas-CArds cliked*/
+            $("#pns-cards").click(function(){
+              $("#menu-prodNServices").hide();
+              $("#menu-cardsPAS").show();
+
+            });
+            /*pas-CArds-prepaidCards cliked*/
+            $("#pns-cards-prepaidCards").click(function(){
+              $("#menu-cardsPAS").hide();
+              $("#menu-prepaidCardsPAS").show();
+
+            });
+            /*pas-investSolutions cliked*/
+            $("#pns-investSolutions").click(function(){
+              $("#menu-prodNServices").hide();
+              $("#menu-investSolutionsPAS").show();
+
+            });
+
+            /*helpNSecurity cliked 3*/
+            $("#hAs").click(function(){
+              $("#menu-m").hide();
+              $("#menu-helpNSecurity").show();
+
+            });
+            /*has-helpCentre cliked*/
+            $("#has-helpCentre").click(function(){
+              $("#menu-helpNSecurity").hide();
+              $("#menu-helpcentreHAS").show();
+            });
+            /*has-security centre cliked*/
+            $("#has-securityCentre").click(function(){
+              $("#menu-helpNSecurity").hide();
+              $("#menu-securitycentreHAS").show();
+            });
+            /*has-security centre- scams cliked*/
+            $("#sc-scams").click(function(){
+              $("#menu-securitycentreHAS").hide();
+              $("#menu-scamSC").show();
+            });
+            /*has-security centre- scams cliked*/
+            $("#sc-secureBanking").click(function(){
+              $("#menu-securitycentreHAS").hide();
+              $("#menu-secureSC").show();
+            });
+
+              /*current account  cliked*/
+              $("#currentAcc").click(function(){
+                $("#menu-everydayB").hide();
+                $("#menu-currentAccount").show();
+              });
+
+              /*Savings account  cliked*/
+              $("#savingsAcc").click(function(){
+                $("#menu-everydayB").hide();
+                $("#menu-savingsAcc").show();
+              });
+
+              /*Advantage current Account cliked*/
+              $("#advantageAcc").click(function(){
+                $("#menu-currentAccount").hide();
+                $("#menu-advCurrentAcc").show();
+
+              });
+
+              /*Premier current Account cliked*/
+              $("#premierAcc").click(function(){
+                $("#menu-currentAccount").hide();
+                $("#menu-premierCurrentAcc").show();
+
+              });
+
+              /*Back from advantage current acc*/
+              $("#menu-advCurrentAcc #back").click(function(){
+                $("#menu-advCurrentAcc").hide();
+                $("#menu-currentAccount").show();
+
+              });
+              /*Back from Premier current acc*/
+              $("#menu-premierCurrentAcc #backPA").click(function(){
+                $("#menu-premierCurrentAcc").hide();
+                $("#menu-currentAccount").show();
+
+              });
+
+              /*Back from  current acc*/
+              $("#menu-currentAccount #backCA").click(function(){
+                $("#menu-currentAccount").hide();
+                $("#menu-everydayB").show();
+
+              });
+              /*Back from  current acc*/
+              $("#menu-savingsAcc #backSA").click(function(){
+                $("#menu-savingsAcc").hide();
+                $("#menu-everydayB").show();
+
+              });
+
+              /*Back from  everyday acc*/
+              $("#menu-everydayB #backEB").click(function(){
+                $("#menu-everydayB").hide();
+                $("#menu-m").show();
+
+              });
+
+              /*Back from paymentsNTransfers*/
+              $("#menu-paymentsNTransfers #backPNT").click(function(){
+                $("#menu-paymentsNTransfers").hide();
+                $("#menu-m").show();
+
+              });
+              /*Back from ways2bank*/
+              $("#menu-ways2bank #backWTB").click(function(){
+                $("#menu-ways2bank").hide();
+                $("#menu-m").show();
+
+              });
+              /*Back from prodNServices*/
+              $("#menu-prodNServices #backPNS").click(function(){
+                $("#menu-prodNServices").hide();
+                $("#menu-m").show();
+              });
+              /*Back from prodNServices-cards*/
+              $("#menu-cardsPAS #backPNSCards").click(function(){
+                $("#menu-cardsPAS").hide();
+                $("#menu-prodNServices").show();
+              });
+              /*Back from prodNServices-cards-prepaidCards*/
+              $("#menu-prepaidCardsPAS #backPNSPreCards").click(function(){
+                $("#menu-prepaidCardsPAS").hide();
+                $("#menu-cardsPAS").show();
+              });
+
+              /*Back from prodNServices-investSolutions*/
+              $("#menu-investSolutionsPAS #backPNSinvestSoltions").click(function(){
+                $("#menu-investSolutionsPAS").hide();
+                $("#menu-prodNServices").show();
+              });
+
+
+              /*Back from help and security*/
+              $("#menu-helpNSecurity #backHAS").click(function(){
+                $("#menu-helpNSecurity").hide();
+                $("#menu-m").show();
+              });
+              /*Back from HAS-helpCentre*/
+              $("#menu-helpcentreHAS #backHAShelpcentre").click(function(){
+                $("#menu-helpcentreHAS").hide();
+                $("#menu-helpNSecurity").show();
+              });
+
+              /*Back from HAS-securityCentre*/
+              $("#menu-securitycentreHAS #backHASsecuritycentre").click(function(){
+                $("#menu-securitycentreHAS").hide();
+                $("#menu-helpNSecurity").show();
+              });
+              /*Back from HAS-securityCentre-scams*/
+              $("#menu-scamSC #backHASscam").click(function(){
+                $("#menu-scamSC").hide();
+                $("#menu-securitycentreHAS").show();
+              });
+              /*Back from HAS-securityCentre-secureBanking*/
+              $("#menu-secureSC #backHASsecurebanking").click(function(){
+                $("#menu-secureSC").hide();
+                $("#menu-securitycentreHAS").show();
+              });
+
+              });
+
+                    /*End of menu*/
+
+                    /*Login */
+                    $("#login-ms").click(function(){
+                      if($("#menuContainer").css('display') == 'block' || $("#contactContainer").css('display') == 'block'){
+                        $("#menuContainer").hide();
+                        $("#contactContainer").hide();
+                      } else {
+                        $("#loginContainer").slideToggle();
+                      }
+                    });
+
+                    /*Contact */
+                    $("#contact-ms").click(function(){
+                      if($("#menuContainer").css('display') == 'block' || $("#loginContainer").css('display') == 'block'){
+                        $("#menuContainer").hide();
+                        $("#loginContainer").hide();
+                      } else {
+                        $("#contactContainer").slideToggle();
+                      }
+                    });
+
+
+
+
+
+
+
+          </script>
+
+
+      </header>
+
+
+  <!--SHow this when menu is clicked-->
+ <div id="menuContainer">
+    <div id="menu-m" >
+      <div class="menu-items" id="home">
+          <p id="homee">Home</p>
+      </div>
+      <div class="menu-items" id="edBanking">
+          <p>Everyday Banking <i class="rightArrow">  </i> </p>
+      </div>
+      <div class="menu-items" id="pNt">
+          <p>Payments & Transfers <i class="rightArrow">  </i> </p>
+      </div>
+      <div class="menu-items" id="wTb">
+          <p>Ways to Bank <i class="rightArrow">  </i> </p>
+      </div>
+      <div class="menu-items" id="pAs">
+          <p>Products and Services <i class="rightArrow">  </i> </p>
+      </div>
+      <div class="menu-items" id="hAs">
+          <p>Help and Security <i class="rightArrow">  </i> </p>
+      </div>
+    </div>
+
+        <!-- for everyday Banking -->
+    <div id="menu-everydayB" class="menus">
+
+      <div class="menu-items" id="backEB">
+          <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="e">
+          <p>Everyday Banking </p>
+      </div>
+      <div class="menu-items" id="currentAcc">
+          <p>Current Accounts <i class="rightArrow">  </i> </p>
+      </div>
+      <div class="menu-items" id="savingsAcc">
+          <p>Savings Accounts <i class="rightArrow">  </i> </p>
+      </div>
+      <div class="menu-items" id="pas">
+          <p>e-Account</p>
+      </div>
+      <div class="menu-items" id="pas">
+          <p>Cards</p>
+      </div>
+      <div class="menu-items" id="pas">
+          <p>Loans</p>
+      </div>
+      <div class="menu-items" id="pas">
+          <p>Investment Solutions</p>
+      </div>
+
+    </div>
+      <!-- for Current Account -->
+    <div id="menu-currentAccount" class="menus">
+
+      <div class="menu-items" id="backCA">
+          <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="e">
+          <p>Current Accounts</p>
+      </div>
+      <div class="menu-items" id="pat">
+          <p>Classic Current Account </p>
+      </div>
+      <div class="menu-items" id="advantageAcc">
+          <p>Advantage Current Account <i class="rightArrow">  </i> </p>
+      </div>
+      <div class="menu-items" id="premierAcc">
+          <p>Premier Current Account <i class="rightArrow">  </i></p>
+      </div>
+      <div class="menu-items" id="pas">
+          <p>Diaspora Current Account</p>
+      </div>
+      <div class="menu-items" id="pas">
+          <p>student Current Account</p>
+      </div>
+    </div>
+    <!-- For Savings Account -->
+    <div id="menu-savingsAcc" class="menus">
+
+      <div class="menu-items" id="backSA">
+          <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="e">
+          <p>Savings Accounts</p>
+      </div>
+      <div class="menu-items" id="pat">
+          <p>vestjyskBank Savings Account</p>
+      </div>
+      <div class="menu-items" id="pat">
+          <p>Classic Savings Account</p>
+      </div>
+    </div>
+
+    <!-- For advantage Current account -->
+    <div id="menu-advCurrentAcc" class="menus" >
+
+      <div class="menu-items" id="back">
+          <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="e">
+          <p>Advantage Current Account</p>
+      </div>
+      <div class="menu-items" id="pat">
+          <p>Advantage Gold Card Rewards</p>
+      </div>
+
+    </div>
+
+    <!-- For premierAcc Current account -->
+    <div id="menu-premierCurrentAcc" class="menus" >
+
+      <div class="menu-items" id="backPA">
+          <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="e">
+          <p>Premier Current Account</p>
+      </div>
+      <div class="menu-items" id="pat">
+          <p>Premier Platinum Card Rewards</p>
+      </div>
+
+    </div>
+
+
+    <!-- End for everyday Banking -->
+
+
+    <!-- for Payments And Transfers -->
+    <div id="menu-paymentsNTransfers" class="menus">
+
+      <div class="menu-items" id="backPNT">
+        <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="e">
+        <p>Payments & Transfers</p>
+      </div>
+      <div class="menu-items" id="currentAcc">
+        <p>Rapidtransfer</p>
+      </div>
+      <div class="menu-items" id="savingsAcc">
+        <p>Remittance Partners</p>
+      </div>
+      <div class="menu-items" id="pas">
+        <p>Foreign Exchange</p>
+      </div>
+
+    </div>
+
+    <!-- End for paymentsNTransfers -->
+
+  <!-- for Ways to bank -->
+     <div id="menu-ways2bank" class="menus">
+
+       <div class="menu-items" id="backWTB">
+          <p><i class="backArrow">  </i>Back </p>
+       </div>
+       <div class="menu-items" id="s">
+         <p>Ways to Bank</p>
+       </div>
+       <div class="menu-items" id="currentAcc">
+         <p>Internet Banking</p>
+       </div>
+       <div class="menu-items" id="savingsAcc">
+         <p>ATMs</p>
+       </div>
+       <div class="menu-items" id="pas">
+         <p>Cashless Payments (POS)</p>
+       </div>
+       <div class="menu-items" id="pas">
+         <p>Branches</p>
+       </div>
+
+     </div>
+
+     <!-- for Current Account -->
+    <div id="menu-currentAccount" class="menus">
+
+      <div class="menu-items" id="backCA">
+        <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="e">
+        <p>Current Accounts</p>
+      </div>
+      <div class="menu-items" id="pat">
+        <p>Classic Current Account </p>
+      </div>
+      <div class="menu-items" id="advantageAcc">
+        <p>Advantage Current Account <i class="rightArrow">  </i> </p>
+      </div>
+      <div class="menu-items" id="premierAcc">
+        <p>Premier Current Account <i class="rightArrow">  </i></p>
+      </div>
+      <div class="menu-items" id="pas">
+        <p>Diaspora Current Account</p>
+      </div>
+      <div class="menu-items" id="pas">
+        <p>student Current Account</p>
+      </div>
+    </div>
+    <!-- For Savings Account -->
+    <div id="menu-savingsAcc" class="menus">
+
+      <div class="menu-items" id="backSA">
+        <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="e">
+        <p>Savings Accounts</p>
+      </div>
+      <div class="menu-items" id="pat">
+        <p>vestjyskBank Savings Account</p>
+      </div>
+      <div class="menu-items" id="pat">
+        <p>Classic Savings Account</p>
+      </div>
+    </div>
+
+    <!-- For advantage Current account -->
+    <div id="menu-advCurrentAcc" class="menus" >
+
+        <div class="menu-items" id="back">
+          <p><i class="backArrow">  </i>Back </p>
+        </div>
+        <div class="menu-items" id="e">
+          <p>Advantage Current Account</p>
+        </div>
+        <div class="menu-items" id="pat">
+          <p>Advantage Gold Card Rewards</p>
+        </div>
+
+      </div>
+
+      <!-- For premierAcc Current account -->
+      <!--For premierCurrentAcc -->
+    <div id="menu-premierCurrentAcc" class="menus" >
+
+      <div class="menu-items" id="backPA">
+        <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="e">
+        <p>Premier Current Account</p>
+      </div>
+      <div class="menu-items" id="pat">
+        <p>Premier Platinum Card Rewards</p>
+      </div>
+
+    </div>
+
+    <!-- End for Ways to bank -->
+
+    <!-- for Products and services -->
+    <div id="menu-prodNServices" class="menus">
+
+      <div class="menu-items" id="backPNS">
+        <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="s">
+        <p>Products and Services</p>
+      </div>
+      <div class="menu-items" id="pns-cards">
+        <p>Cards <i class="rightArrow"></i></p>
+      </div>
+      <div class="menu-items" id="savingsAcc">
+        <p>Loans</p>
+      </div>
+      <div class="menu-items" id="pas">
+        <p>Payments & Transfers</p>
+      </div>
+      <div class="menu-items" id="pas">
+        <p>Hajj Financial Services</p>
+      </div>
+      <div class="menu-items" id="pas">
+        <p>Bancassurance</p>
+      </div>
+      <div class="menu-items" id="pns-investSolutions">
+        <p>Investment Solutions <i class="rightArrow"></i></p>
+      </div>
+      <div class="menu-items" id="pas">
+        <p>e-Products</p>
+      </div>
+      <div class="menu-items" id="pas">
+        <p>Microfinance</p>
+      </div>
+      <div class="menu-items" id="pas">
+        <p>Term Deposit</p>
+      </div>
+
+    </div>
+    <!-- for pas-CArds -->
+    <div id="menu-cardsPAS" class="menus">
+
+      <div class="menu-items" id="backPNSCards">
+        <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="s">
+        <p>Card Security - 3D secure</p>
+      </div>
+      <div class="menu-items" id="pns-cards">
+        <p>Cards</p>
+      </div>
+      <div class="menu-items" id="savingsAcc">
+        <p>Debit Cards</p>
+      </div>
+      <div class="menu-items" id="pas">
+        <p>Credit Cards</p>
+      </div>
+      <div class="menu-items" id="pns-cards-prepaidCards">
+        <p>Prepaid Cards <i class="rightArrow"></i></p>
+      </div>
+      <div class="menu-items" id="pas">
+        <p>PAC Cards</p>
+      </div>
+      <div class="menu-items" id="pas">
+        <p>Visa</p>
+      </div>
+      <div class="menu-items" id="pas">
+        <p>Mastercard</p>
+      </div>
+
+    </div>
+
+    <!-- for pas-prepaidCards -->
+    <div id="menu-prepaidCardsPAS" class="menus">
+
+      <div class="menu-items" id="backPNSPreCards">
+        <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="s">
+        <p>Prepaid Cards</p>
+      </div>
+      <div class="menu-items" id="pns-cards">
+        <p>CashXpress</p>
+      </div>
+      <div class="menu-items" id="savingsAcc">
+        <p>Salary Express</p>
+      </div>
+
+    </div>
+    <!-- for pas-investSolutions -->
+    <div id="menu-investSolutionsPAS" class="menus">
+
+      <div class="menu-items" id="backPNSinvestSoltions">
+        <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="s">
+        <p>Investment Solutions</p>
+      </div>
+      <div class="menu-items" id="pns-cards">
+        <p>Fixed Income Fund</p>
+      </div>
+      <div class="menu-items" id="savingsAcc">
+        <p>Money Market Fund</p>
+      </div>
+      <div class="menu-items" id="pas">
+        <p>Securities Trading Platform</p>
+      </div>
+      <div class="menu-items" id="pas">
+        <p>vestjyskBank TBILL4ALL</p>
+      </div>
+
+    </div>
+
+    <!-- for Current Account -->
+    <div id="menu-currentAccount" class="menus">
+
+      <div class="menu-items" id="backCA">
+        <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="e">
+        <p>Current Accounts</p>
+      </div>
+      <div class="menu-items" id="pat">
+        <p>Classic Current Account </p>
+      </div>
+      <div class="menu-items" id="advantageAcc">
+        <p>Advantage Current Account <i class="rightArrow">  </i> </p>
+      </div>
+      <div class="menu-items" id="premierAcc">
+        <p>Premier Current Account <i class="rightArrow">  </i></p>
+      </div>
+      <div class="menu-items" id="pas">
+        <p>Diaspora Current Account</p>
+      </div>
+      <div class="menu-items" id="pas">
+        <p>student Current Account</p>
+      </div>
+    </div>
+    <!-- For Savings Account -->
+    <div id="menu-savingsAcc" class="menus">
+
+      <div class="menu-items" id="backSA">
+        <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="e">
+        <p>Savings Accounts</p>
+      </div>
+      <div class="menu-items" id="pat">
+        <p>vestjyskBank Savings Account</p>
+      </div>
+      <div class="menu-items" id="pat">
+        <p>Classic Savings Account</p>
+      </div>
+    </div>
+
+    <!-- For advantage Current account -->
+    <div id="menu-advCurrentAcc" class="menus" >
+
+      <div class="menu-items" id="back">
+        <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="e">
+        <p>Advantage Current Account</p>
+      </div>
+      <div class="menu-items" id="pat">
+        <p>Advantage Gold Card Rewards</p>
+      </div>
+
+    </div>
+
+    <!-- For premierAcc Current account -->
+    <div id="menu-premierCurrentAcc" class="menus" >
+
+      <div class="menu-items" id="backPA">
+        <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="e">
+        <p>Premier Current Account</p>
+      </div>
+      <div class="menu-items" id="pat">
+        <p>Premier Platinum Card Rewards</p>
+      </div>
+
+    </div>
+
+    <!-- End for PRoduct and services -->
+
+
+    <!-- for Help and security -->
+
+    <div id="menu-helpNSecurity" class="menus">
+
+      <div class="menu-items" id="backHAS">
+        <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="s">
+        <p>Help and Security</p>
+      </div>
+      <div class="menu-items" id="has-helpCentre">
+        <p>Help Centre <i class="rightArrow"></i></p>
+      </div>
+      <div class="menu-items" id="has-securityCentre">
+        <p>Security Centre<i class="rightArrow"></i></p>
+      </div>
+      <div class="menu-items" id="pas">
+        <p>Customer Feedback</p>
+      </div>
+      <div class="menu-items" id="pas">
+        <p>Privacy Notice</p>
+      </div>
+
+    </div>
+
+    <!-- for has-helpCentre -->
+    <div id="menu-helpcentreHAS" class="menus">
+
+      <div class="menu-items" id="backHAShelpcentre">
+        <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="s">
+        <p>Help Centre</p>
+      </div>
+      <div class="menu-items" id="pns-cards">
+        <p>Cards</p>
+      </div>
+      <div class="menu-items" id="savingsAcc">
+        <p>Help FAQs</p>
+      </div>
+      <div class="menu-items" id="pas">
+        <p>Tips and Advice</p>
+      </div>
+
+    </div>
+
+    <!-- for has-securityCentre-scam Menu- -->
+    <div id="menu-scamSC" class="menus">
+
+      <div class="menu-items" id="backHASscam">
+        <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="s">
+        <p>Scams</p>
+      </div>
+      <div class="menu-items" id="pns-cards">
+        <p>Phishing</p>
+      </div>
+      <div class="menu-items" id="savingsAcc">
+        <p>Spoof Website</p>
+      </div>
+      <div class="menu-items" id="pas">
+        <p>419 scam</p>
+      </div>
+      <div class="menu-items" id="pns-cards-prepaidCards">
+        <p>Keyloggers </p>
+      </div>
+
+    </div>
+
+    <!-- for has-securityCentre-secureBanking Menu- -->
+    <div id="menu-secureSC" class="menus">
+
+      <div class="menu-items" id="backHASsecurebanking">
+        <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="s">
+        <p>Secure Banking</p>
+      </div>
+      <div class="menu-items" id="pns-cards">
+        <p>PC Security</p>
+      </div>
+      <div class="menu-items" id="savingsAcc">
+        <p>Internet in public places</p>
+      </div>
+      <div class="menu-items" id="pas">
+        <p>Wi-fi</p>
+      </div>
+      <div class="menu-items" id="pns-cards-prepaidCards">
+        <p>Virus awareness </p>
+      </div>
+      <div class="menu-items" id="pns-cards-prepaidCards">
+        <p>Identity theft </p>
+      </div>
+      <div class="menu-items" id="pns-cards-prepaidCards">
+        <p>Internet Banking </p>
+      </div>
+      <div class="menu-items" id="pns-cards-prepaidCards">
+        <p>ATM Fraud </p>
+      </div>
+      <div class="menu-items" id="pns-cards-prepaidCards">
+        <p>Mobile phone banking </p>
+      </div>
+      <div class="menu-items" id="pns-cards-prepaidCards">
+        <p>Security Contact Numbers </p>
+      </div>
+      <div class="menu-items" id="pns-cards-prepaidCards">
+        <p>Card Security </p>
+      </div>
+
+    </div>
+
+    <!-- for has-securityCentre -->
+    <div id="menu-securitycentreHAS" class="menus">
+
+      <div class="menu-items" id="backHASsecuritycentre">
+        <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="s">
+        <p>Security Centre</p>
+      </div>
+      <div class="menu-items" id="pns-cards">
+        <p>Contact Security</p>
+      </div>
+      <div class="menu-items" id="savingsAcc">
+        <p>Security Tips</p>
+      </div>
+      <div class="menu-items" id="sc-scams">
+        <p>Scams <i class="rightArrow"></i></p>
+      </div>
+      <div class="menu-items" id="sc-secureBanking">
+        <p>Secure Banking<i class="rightArrow"></i></p>
+      </div>
+      <div class="menu-items" id="savingsAcc">
+        <p>Trusteer</p>
+      </div>
+      <div class="menu-items" id="savingsAcc">
+        <p>Security FAQs</p>
+      </div>
+      <div class="menu-items" id="savingsAcc">
+        <p>Report a Scam</p>
+      </div>
+
+    </div>
+    <!-- for has-securityCentre-scam Menu- -->
+    <div id="menu-scamSC" class="menus">
+
+      <div class="menu-items" id="backHASscam">
+        <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="s">
+        <p>Scams</p>
+      </div>
+      <div class="menu-items" id="pns-cards">
+        <p>Phishing</p>
+      </div>
+      <div class="menu-items" id="savingsAcc">
+        <p>Spoof Website</p>
+      </div>
+      <div class="menu-items" id="pas">
+        <p>419 scam</p>
+      </div>
+      <div class="menu-items" id="pns-cards-prepaidCards">
+        <p>Keyloggers </p>
+      </div>
+
+    </div>
+      <!-- End forHElp and security -->
+
+ </div>
+<!--End of menu -->
+
+  <!--Show this when login is clicked-->
+  <div id="loginContainer" class="everymenu">
+    <p class="LC-title"><img src="img/keyyy.png"> Login to Internet Banking</p>
+
+      <p id="LC-personal" class="LC-p">Personal</p>
+      <p id="LC-omni"  class="LC-p">Omni</p>
+
+    <p class="LC-title">Login</p>
+      <p class="LC-p"> Trading </p>
+      <p class="LC-p"> Rapidtransfer Online </p>
+      <p class="LC-p"> CashXpress </p>
+
+  </div>
+
+  <!--Show this when Contact is clicked-->
+  <div id="contactContainer" class="everymenu">
+
+    <p class="LC-title"><img src="img/tele.png"> Contact</p>
+      <p id="CC-Get in Touch" class="LC-p">Personal</p>
+      <p id="CC-Find a Service"  class="LC-p">Omni</p>
+
+  </div>
+
+
+  <!--Body Contents-->
+
+
+
+
+
+
+
+
+            <!-- small screen THIRD SWIPE LEFT  EverydayBAnking -->
+    <script>
+        $("#second-paymentsNTransfers").click(function(){
+          $("#third-paymentsNTransfers").show();
+          $("#third-everydayB").hide();
+          $("#third-ways2bank").hide();
+
+          /*Style */
+          $("#second-paymentsNTransfers p").css("background","rgb(244,120,44)");
+          $("#second-paymentsNTransfers .triangle-down").css("border-top-color","rgb(244,120,44)");
+
+          /*Style not*/
+          $("#second-everydayBanking  p, #second-ways2bank p").css("background","transparent");
+          $("#second-everydayBanking  i, #second-ways2bank i").css("border-top-color","transparent");
+
+
+        });
+
+        $("#second-ways2bank").click(function(){
+          $("#third-ways2bank").show();
+          $("#third-paymentsNTransfers").hide();
+          $("#third-everydayB").hide();
+
+          /*Style */
+          $("#second-ways2bank p").css("background","rgb(244,120,44)");
+          $("#second-ways2bank .triangle-down").css("border-top-color","rgb(244,120,44)");
+
+          /*Style not*/
+          $("#second-everydayBanking  p, #second-paymentsNTransfers p").css("background","transparent");
+          $("#second-everydayBanking  i, #second-paymentsNTransfers i").css("border-top-color","transparent");
+
+        });
+
+        $("#second-everydayBanking").click(function(){
+          $("#third-everydayB").show();
+          $("#third-paymentsNTransfers").hide();
+          $("#third-ways2bank").hide();
+
+          /*Style */
+          $("#second-everydayBanking p").css("background","rgb(244,120,44)");
+          $("#second-everydayBanking .triangle-down").css("border-top-color","rgb(244,120,44)");
+
+          /*Style not*/
+          $("#second-ways2bank  p, #second-paymentsNTransfers p").css("background","transparent");
+          $("#second-ways2bank  i, #second-paymentsNTransfers i").css("border-top-color","transparent");
+
+
+        });
+
+
+
+    </script>
+
+
+
+      <!--Body for login contents -->
+    <img id="login-first" src="img/nature.jpg">
+
+    <div id="login-second">
+      <h3>Welcome to vestjyskBank Internet Banking</h3>
+
+      <div id="login-second-box">
+        <h3>Login here</h3>
+        <p id="login-userId">User ID/Alias Name</p>
+        <input id="login-alias" type="text" placeholder=" Please enter your unique User ID">
+        <button id="btn-nxt"> Next step</button>
+        <input id="myInput" type="password" placeholder=" Please enter your password"><br/>
+
+        <input id="showpassword" type="checkbox" onclick="myFunction()"><p id="showpassword">Show Password</p> <br/>
+        <button id="btn-login"> Login</button>
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myInput");
+            if (x.type === "password") {
+              x.type = "text";
+            } else {
+              x.type = "password";
+            }
+          }
+        </script>
+        <script>
+            $(document).ready(function(){
+              $("#btn-nxt").click(function(){
+                if($("#login-alias").val() == "christianawills"|| $("#login-alias").val() == "jonesd" || $("#login-alias").val() == "richmon"
+                   || $("#login-alias").val() == "rooseveltsam" || $("#login-alias").val() == "del"  )
+                   {
+                  $("#btn-nxt").html('Next step <img src="img/ajax-loaderrr.gif" height="12">');
+                  setTimeout(function(){
+                    $("#btn-nxt").html('Next step');
+
+                    $("#btn-nxt").hide();
+                    $("#login-alias").hide();
+                    $("#login-userId").css("visibility","hidden");
+      							$("#myInput,#showpassword,#btn-login").slideDown('slow');
+
+                  }, 2000);
+                }
+                else{
+                  $("#login-alias,#login-second-box").css("border-color","red");
+                }
+              });
+
+              $("#login-alias").click(function(){
+                $(this).css("border-color","rgb(222, 222, 222)");
+                $("#login-second-box").css("border-color","gold");
+              });
+
+              //When Button Login is clicked  Zamani
+              $("#btn-login").click(function(){
+                if($("#myInput").val() == "Z2ieb21z9x"){
+                  $("#btn-login").html('Login <img src="img/ajax-loaderrr.gif" height="12">');
+                  setTimeout(function(){
+                    $("#btn-login").html('Login');
+
+                    $("#login-second").hide();
+
+      							$("#login-display-zamani").fadeIn('slow');
+
+                  }, 5000);
+                }
+                /*NUREEDEEN*/
+                else if($("#myInput").val() == "C3ieb"){
+                  $("#btn-login").html('Login <img src="img/ajax-loaderrr.gif" height="12">');
+                  setTimeout(function(){
+                    $("#btn-login").html('Login');
+
+                    $("#login-second").hide();
+
+      							$("#login-display-nerudeen").fadeIn('slow');
+
+                  }, 5000);
+                }
+                /*Richmond*/
+                else if($("#myInput").val() == "D4ieb"){
+                  $("#btn-login").html('Login <img src="img/ajax-loaderrr.gif" height="12">');
+                  setTimeout(function(){
+                    $("#btn-login").html('Login');
+
+                    $("#login-second").hide();
+
+      							$("#login-display-richmond").fadeIn('slow');
+
+                  }, 5000);
+                }
+                /*ROSS*/
+                else if($("#myInput").val() == "E4ieb21x8z"){
+                  $("#btn-login").html('Login <img src="img/ajax-loaderrr.gif" height="12">');
+                  setTimeout(function(){
+                    $("#btn-login").html('Login');
+
+                    $("#login-second").hide();
+
+      							$("#login-display-ross").fadeIn('slow');
+
+                  }, 5000);
+                }
+                /*NOLELE*/
+                else if($("#myInput").val() == "F5ieb"){
+                  $("#btn-login").html('Login <img src="img/ajax-loaderrr.gif" height="12">');
+                  setTimeout(function(){
+                    $("#btn-login").html('Login');
+
+                    $("#login-second").hide();
+
+      							$("#login-display-nolele").fadeIn('slow');
+
+                  }, 5000);
+                }
+                else{
+                  $("#myInput,#login-second-box").css("border-color","red");
+                }
+              });
+              $("#myInput").click(function(){
+                $(this).css("border-color","rgb(222, 222, 222)");
+                $("#login-second-box").css("border-color","gold");
+              });
+            });
+        </script>
+        <p>
+          Forgotten your password or locked out? <span>Click here</span><br/>
+          By logging in, I acknowledge that i have read and that I agree with the
+          <span>Terms and Conditions</span> posted on the website.
+        </p>
+        <span>
+
+        </span>
+      </div>
+      <div id="login-warning">
+        <h4>Security Information</h4>
+        <p>
+          vestjyskBank uses Secure Access, which has a two-step log-in mechanism to make your online
+          banking even safer.
+        </p>
+        <p>
+          A personalised picture and message will help you authenticate our web site; meanwhile a
+          multi-layered authentication process requires registration for any third party transaction.
+        </p>
+        <p>
+          vestjyskBank will never ask you to access Internet Banking through a link in an email. To learn
+          more about security, visit our <span>Security Centre</span>.
+        </p>
+        <p>
+          Install free Rapport secure web access and anti-fraud solution after logging into Internet Banking.
+        </p>
+      </div>
+    </div>
+
+    <!-- Show this when user registration is matched-->
+    <div id="login-display">
+      <h3>Welcome to vestjyskBank Internet Banking</h3>
+
+
+      <div class="login-display-boxes">
+        <h3 id="client-name">Miss Christiana Wills</h3>
+        <p id="login-userId">Online Account</p>
+        <p>06-1111-0123456-00</p>
+        <p>Statement: Online Only change</p>
+
+
+
+      </div>
+
+      <div class="login-display-boxes" id="login-amountt">
+        <span>
+          <div>
+            <p class="login-display-amount" id="funds">
+              $<br/> 1,200,533.00
+            </p>
+            <p>Dollar Amount</p>
+
+          </div>
+
+          <div>
+            <p class="login-display-amount"  id="fundsBalance">
+              DKK<br/> 7,727,875.62
+            </p>
+            <p>Available balance</p>
+
+          </div>
+        </span>
+
+      </div>
+
+      <div class="transaction-box">
+
+        <p class="hide-transfer">Transactions</p>
+        <div class="transaction-in">
+          <h3 class="hide-transfer"><span>Transactions Between:</span> 17/12/2017 and 31/12/2018</h3>
+
+          <div id="transaction-details">
+            <span>
+              <p>17/DEC/2017</p>
+              <p class="t-right">$40,000</p>
+            </span>
+
+            <span>
+              <p>2/JAN/2018</p>
+              <p class="t-right">$800,000</p>
+            </span>
+
+            <span>
+              <p>3/FEB/2018</p>
+              <p class="t-right">$80,000</p>
+            </span>
+
+          </div>
+
+
+          <div id="transaction-sends">
+
+            <p>Quick links</p>
+            <div class="sends-box">
+              <span id="btn-transferfunds">
+                <img src="img/transder.png">
+                <p>Transfer Funds</p>
+              </span>
+
+            </div>
+            <div class="sends-box">
+              <span id="btn-buyairtime">
+                <img src="img/airtime.png">
+                <p>Buy airtime</p>
+              </span>
+            </div>
+            <div class="sends-box">
+              <span id="btn-paybill">
+                <img src="img/bills.png">
+                <p>Pay Bill</p>
+              </span>
+            </div>
+
+            <div id="sends-details" class="quicklinks">
+              <p id="powered">Powered by Rapidtransfer</p>
+              <p>Select Account</p>
+              <div class="sendsdetial-box">
+                Current account - 06**111
+              </div>
+
+
+              <p>Destination country</p>
+              <Select class="sendsdetial-box">
+                <option>Denmark</option>
+                <option>France</option>
+                <option>Spain</option>
+                <option>Italy</option>
+                <option>Wales</option>
+                <option>Switzerland</option>
+                <option>Greece</option>
+                <option>Netherlands</option>
+                <option>Sweden</option>
+                <option>Austria</option>
+                <option>Iceland</option>
+                <option>Norway</option>
+                <option>Ukraine</option>
+                <option>Malta</option>
+                <option>Hungary</option>
+                <option>Romania</option>
+                <option>Cyprus</option>
+                <option>Finland</option>
+                <option>Monaco</option>
+                <option>Slovakia</option>
+              </select>
+
+              <p>Mode of delivery</p>
+              <Select class="sendsdetial-box">
+                <option>Account</option>
+
+              </select>
+
+
+              <p>Destination account</p>
+              <input class="sendsdetial-box" id="des-acc">
+
+              <p>Amount ($ / DKK)</p>
+              <input class="sendsdetial-box" id="amount-acc">
+
+              <div id="btn-box">
+                <button id="btn-transfer">Transfer</button>
+              </div>
+            </div>
+
+            <div id="buyairtime-details" class="quicklinks">
+              <p id="powered">Pay Merchant</p>
+              <img id="cart" src="img/cartt.png">
+              <p>vestjyskeBank's merchant payment</p>
+              <img class="card" src="img/mastercard.png">
+              <img class="card" src="img/visa.png">
+
+
+            </div>
+            <script>
+              /*When Tranfer funds is clicked*/
+              $("#btn-transferfunds").click(function(){
+                if($("#sends-details").css("display") == 'none'){
+                  setTimeout(function(){
+                  $("#transaction-details,.hide-transfer,#buyairtime-details").hide();
+                  $("#sends-details").slideDown();
+                }, 1000);
+
+              } else{
+                $("#transaction-details,.hide-transfer").show();
+                $("#sends-details").slideUp();
+              }
+              });
+                /*When transfer button is clicked*/
+                $("#btn-transfer").click(function(){
+                  if($("#des-acc,#amount-acc").val().length === 0){
+                    alert("Fields can't be left blank");
+                    $("#des-acc,#amount-acc").css("border-color","red");
+                  }else{
+                  $("#btn-transfer").html('Transfer <img src="img/ajax-loaderrr.gif"height="12"> ');
+                  setTimeout(function(){
+                    $("#btn-transfer").html('Transfer');
+
+                    alert("Transaction timeout. Transfer taking longer than usual. Visit our nearest branch if problem persist.");
+
+                    $("#des-acc,#amount-acc").val('');
+                  },5000);
+                  }
+                });
+
+
+              /*When Buy airtime is clicked*/
+              $("#btn-buyairtime,#btn-paybill").click(function(){
+                if($("#buyairtime-details").css("display") == 'none'){
+                  setTimeout(function(){
+                  $("#transaction-details,.hide-transfer,#sends-details").hide();
+                  $("#buyairtime-details").slideDown();
+                }, 1000);
+
+              } else{
+                $("#transaction-details,.hide-transfer").show();
+                $("#buyairtime-details").slideUp();
+              }
+              });
+
+
+            </script>
+            </div>
+
+
+
+          <p id="enquiries-txt">FOR ALL ENQUIRIES/SUGGESTIONS, PLEASE CALL</p>
+
+        </div>
+
+      </div>
+
+      <button id="logoutBtn">LOG-OUT</button>
+      <script>
+      $("#logoutBtn").click(function(){
+
+          $("#logoutBtn").html('LOG-OUT <img src="img/ajax-loaderrr.gif" height="12"> ');
+        setTimeout(function(){
+          $("#logoutBtn").html('LOG-OUT');
+
+          $("#login-display").hide();
+          $("#login-alias").val('');
+          $("#myInput").val('');
+          $("#login-second").fadeIn('slow');
+          $("#myInput").hide();
+          $("#btn-login").hide();
+          $("#login-alias").show();
+          $("#btn-nxt").show();
+
+
+        }, 1000);
+
+          $("#trackInput").css("border-color","red");
+          $("#errorP").html('Please Enter a Valid Number or contact us.');
+          $("#errorP").css("color","brown");
+
+      });
+
+      </script>
+
+    </div>
+
+    <!--NUREEDEEN ACCOUNT -->
+    <div id="login-display-nerudeen">
+
+      <div class="newlog-name">
+        <h2>MR DAVID JONES</h2>
+        <img src="img/lockedkey.png">
+      </div>
+      <div class="newlog-acc-detials">
+        <div class="acc-det-informtion" id="btn-accountInfo">
+          Account Information
+        </div>
+        <div class="acc-det-informtion" id="btn-accountPayment">
+          Account Payments & Transfers
+        </div>
+        <div class="acc-det-informtion" id="btn-customerService">
+          Customer Services
+        </div>
+      </div>
+
+
+      <!--Account Information-->
+      <div class="acc-info">
+        <h3>Account Summary</h3>
+        <span class="newlog-word">
+          <p class="reduceFont">Total Portfolio Amount (DKK Equivalent)</p>
+          <p class="reduceFont">Total Portfolio Amount (USD Equivalent)</p>
+          <p class="money"><strong>7,727,875.62</strong></p>
+          <p class="money"><strong>1,200,553.00</strong></p>
+
+        </span>
+
+
+
+
+
+        <div class="newlog-currentsavings">
+          <h5>Current and savings</h5>
+          <span>
+           <p class="title">Account Number</p>
+            <p>4983014532750801</p>
+          </span>
+          <span>
+            <p class="title">Account Type</p>
+          </p>  Savings Account</p>
+          </span>
+          <span>
+            <p class="title">Currency</p>
+            <p>DKK</p>
+          </span>
+          <span>
+            <p class="title">Current Balance</p>
+              <p>7,727,875.62</p>
+          </span>
+          <span>
+            <p class="title">Dollar Equivalent</p>
+              <p>1,200,553.00</p>
+          </span>
+
+        </div>
+
+        <div class="newlog-currentsavings" >
+          <h5>Transaction between 01/01/2017 to 31/12/2018</h5>
+
+          <div class="t-box" id="currentsavings-title">
+            <h3>Date</h3>
+            <h3>Details</h3>
+            <h3>Amount</h3>
+          </div>
+          <div class="t-box">
+            <p>02/02/2017</p>
+            <p>Latex Ltd</p>
+            <p class="amt-fig">50,000.00</p>
+          </div>
+          <div class="t-box">
+            <p>12/02/2017</p>
+            <p>Johnny Steel Ltd</p>
+            <p class="amt-fig">120,000.00</p>
+          </div>
+          <div class="t-box">
+            <p>28/02/2017</p>
+            <p>Menzgold </p>
+            <p class="amt-fig">20,510.00</p>
+          </div>
+          <div class="t-box">
+            <p>28/02/2017</p>
+            <p>FirstAlliance Security </p>
+            <p class="amt-fig">5,010.00</p>
+          </div>
+          <div class="t-box">
+            <p>29/02/2017</p>
+            <p>Wendy's Restuarant </p>
+            <p class="amt-fig">1,399.00</p>
+          </div>
+          <div class="t-box">
+            <p>09/05/2017</p>
+            <p>Tesla Inc </p>
+            <p class="amt-fig">35,600.00</p>
+          </div>
+          <div class="t-box">
+            <p>19/05/2017</p>
+            <p>N/A </p>
+            <p class="amt-fig">5,500.00</p>
+          </div>
+          <div class="t-box">
+            <p>02/07/2017</p>
+            <p>Oceanwave Delivery Service </p>
+            <p class="amt-fig">80,000.00</p>
+          </div>
+          <div class="t-box">
+            <p>08/09/2017</p>
+            <p>FedEx </p>
+            <p class="amt-fig">500.00</p>
+          </div>
+          <div class="t-box">
+            <p>05/11/2017</p>
+            <p>Home Depot </p>
+            <p class="amt-fig">2800.00</p>
+          </div>
+          <div class="t-box">
+            <p>15/12/2017</p>
+            <p>Vanfuth Assurance Company </p>
+            <p class="amt-fig">5000.00</p>
+          </div>
+          <div class="t-box">
+            <p>03/02/2018</p>
+            <p>Home Depot </p>
+            <p class="amt-fig">599.00</p>
+          </div>
+
+          <div class="total">
+            <p>Total Expenses:</p>
+            <p><strong>326,918.00</strong></p>
+
+            <p>Available Balance:</p>
+            <p class="title"><strong>1,200,533.00</strong></p>
+          </div>
+
+
+        </div>
+
+        <div id="newlog-paymentsNTransfers">
+          <h3>Powered by Rapidtransfer</h3>
+          <p>Select Account</p>
+          <div class="sendsdetial-box">
+            Current account - 498***801
+          </div>
+
+
+          <p>Destination country</p>
+          <Select class="sendsdetial-box">
+            <option>Denmark</option>
+            <option>France</option>
+            <option>Spain</option>
+            <option>Italy</option>
+            <option>Wales</option>
+            <option>Switzerland</option>
+            <option>Greece</option>
+            <option>Netherlands</option>
+            <option>Sweden</option>
+            <option>Austria</option>
+            <option>Iceland</option>
+            <option>Norway</option>
+            <option>Ukraine</option>
+            <option>Malta</option>
+            <option>Hungary</option>
+            <option>Romania</option>
+            <option>Cyprus</option>
+            <option>Finland</option>
+            <option>Monaco</option>
+            <option>Slovakia</option>
+          </select>
+
+          <p>Mode of delivery</p>
+          <Select class="sendsdetial-box">
+            <option>Account</option>
+
+          </select>
+
+
+          <p>Destination account</p>
+          <input class="sendsdetial-box" id="newlog-destinationacc">
+
+          <p>Amount ($ / DKK)</p>
+          <input class="sendsdetial-box" id="newlog-des-amount">
+
+          <div id="btn-box">
+            <button id="newlog-btntransfer">Transfer</button>
+          </div>
+
+          <script>
+          /*When transfer button is clicked*/
+          $("#newlog-btntransfer").click(function(){
+            if($("#newlog-destinationacc,#newlog-des-amount").val().length === 0){
+              alert("Fields can't be left blank");
+              $("#newlog-destinationacc,#newlog-des-amount").css("border-color","red");
+            }else{
+            $("#newlog-btntransfer").html('Transfer <img src="img/ajax-loaderrr.gif"height="12"> ');
+            setTimeout(function(){
+              $("#newlog-btntransfer").html('Transfer');
+
+              alert("Transaction timeout. Transfer taking longer than usual. Visit our nearest branch if problem persist.");
+
+              $("#newlog-destinationacc,#newlog-des-amount").val('');
+            },5000);
+            }
+          });
+          </script>
+        </div>
+
+        <div id="newlog-customerservice">
+          <h3>24/7 Customer service</h3>
+          <p id="helpMessage"> Are you having trouble with something?. Send us
+            a message and one of our service personnels will help
+            you out.
+          </p>
+          <p>Enter Email</p>
+          <input type="text" placeholder="email" id="newlog-email">
+          <p>Enter message</p>
+          <textarea name="message" rows="10" cols="30"></textarea>
+          <p id="newlog-warning">Feilds can't be left blank</p>
+          <button id="btn-sendmessage">Send message</button>
+          <!--When Send message is clicked-->
+          <script>
+            $("#btn-sendmessage").click(function(){
+              if($("#newlog-customerservice input" || "#newlog-customerservice textarea" ).val()== ""){
+
+                $("#newlog-warning").show();
+                $("#newlog-customerservice input, textarea").css("border-color",'red');
+              }else{
+                setTimeout(function(){
+                  $("#newlog-warning").html('Please wait...');
+                  alert("We will respond to your message via email. Thank you for banking with us");
+                  $("#newlog-customerservice input,#newlog-customerservice textarea" ).val("");
+                  $("#newlog-customerservice").slideUp();
+                  $(".newlog-currentsavings").slideDown();
+                }, 2000);
+              }
+            });
+          </script>
+        </div>
+
+        <script>
+
+          /*Account payment is clicked*/
+          $("#btn-accountPayment").click(function(){
+            $(".newlog-currentsavings").slideUp();
+            $("#newlog-customerService").slideUp();
+            $("#newlog-paymentsNTransfers").slideDown();
+          });
+
+          /*Account Customer service is clicked*/
+          $("#btn-customerService").click(function(){
+            $(".newlog-currentsavings").slideUp();
+            $("#newlog-paymentsNTransfers").slideUp();
+            $("#newlog-customerservice").slideDown();
+
+          });
+
+          /*Account Account Information is clicked*/
+          $("#btn-accountInfo").click(function(){
+            $("#newlog-paymentsNTransfers").slideUp();
+            $("#newlog-customerservice").slideUp();
+            $(".newlog-currentsavings").slideDown();
+
+          });
+        </script>
+
+        <button class="btn-newlog-logout"> Log out</button>
+
+      </div>
+
+    </div>
+
+
+    <!--Zamani ACCOUNT -->
+    <div id="login-display-zamani">
+
+      <div class="newlog-name">
+        <h2>Miss Christiana Wills</h2>
+        <img src="img/lockedkey.png">
+      </div>
+      <div class="newlog-acc-detials">
+        <div class="acc-det-informtion" id="btn-accountInfo-zamani">
+          Account Information
+        </div>
+        <div class="acc-det-informtion" id="btn-accountPayment-zamani">
+          Account Payments & Transfers
+        </div>
+        <div class="acc-det-informtion" id="btn-customerService-zamani">
+          Customer Services
+        </div>
+      </div>
+
+
+      <!--Account Information-->
+      <div class="acc-info">
+        <h3>Account Summary</h3>
+        <span class="newlog-word">
+          <p class="reduceFont">Total Portfolio Amount (DKK Equivalent)</p>
+          <p class="reduceFont">Total Portfolio Amount (USD Equivalent)</p>
+          <p class="money"><strong>7,504,475.62</strong></p>
+          <p class="money"><strong>1,185,553.00</strong></p>
+
+        </span>
+
+
+
+
+
+        <div class="newlog-currentsavings">
+          <h5>Current and savings</h5>
+          <span>
+           <p class="title">Account Number</p>
+            <p>4983014532750801</p>
+          </span>
+          <span>
+            <p class="title">Account Type</p>
+          </p>  Savings Account</p>
+          </span>
+          <span>
+            <p class="title">Currency</p>
+            <p>DKK</p>
+          </span>
+          <span>
+            <p class="title">Current Balance</p>
+              <p>7,727,875.62</p>
+          </span>
+          <span>
+            <p class="title">Dollar Equivalent</p>
+              <p>1,200,553.00</p>
+          </span>
+
+        </div>
+
+        <div class="newlog-currentsavings" >
+          <h5>Transaction between 01/01/2017 to 31/12/2018</h5>
+
+          <div class="t-box" id="currentsavings-title">
+            <h3>Date</h3>
+            <h3>Details</h3>
+            <h3>Amount</h3>
+          </div>
+          <div class="t-box">
+            <p>17/08/2018</p>
+            <p>Lucs Jewellery</p>
+            <p class="amt-fig">15,000.00</p>
+          </div>
+          <div class="t-box">
+            <p>27/08/2018</p>
+            <p>N/A</p>
+            <p class="amt-fig">80,000.00</p>
+          </div>
+          <div class="t-box">
+            <p>27/08/2018</p>
+            <p>Floor Trader</p>
+            <p class="amt-fig">800,000.00</p>
+          </div>
+          <div class="t-box">
+            <p>17/08/2018</p>
+            <p>N/A </p>
+            <p class="amt-fig">40,000.00</p>
+          </div>
+          <div class="t-box">
+            <p>03/02/2018</p>
+            <p>Home Depot </p>
+            <p class="amt-fig">599.00</p>
+          </div>
+
+          <div class="t-box">
+            <p>15/12/2017</p>
+            <p>Vanfuth Assurance Company </p>
+            <p class="amt-fig">5000.00</p>
+          </div>
+          <div class="t-box">
+            <p>05/11/2017</p>
+            <p>Home Depot </p>
+            <p class="amt-fig">2800.00</p>
+          </div>
+          <div class="t-box">
+            <p>08/09/2017</p>
+            <p>FedEx </p>
+            <p class="amt-fig">500.00</p>
+          </div>
+          <div class="t-box">
+            <p>02/07/2017</p>
+            <p>Oceanwave Delivery Service </p>
+            <p class="amt-fig">80,000.00</p>
+          </div>
+          <div class="t-box">
+            <p>19/05/2017</p>
+            <p>N/A </p>
+            <p class="amt-fig">5,500.00</p>
+          </div>
+          <div class="t-box">
+            <p>09/05/2017</p>
+            <p>Tesla Inc </p>
+            <p class="amt-fig">35,600.00</p>
+          </div>
+          <div class="t-box">
+            <p>29/02/2017</p>
+            <p>Wendy's Restuarant </p>
+            <p class="amt-fig">1,399.00</p>
+          </div>
+          <div class="t-box">
+            <p>28/02/2017</p>
+            <p>FirstAlliance Security </p>
+            <p class="amt-fig">5,010.00</p>
+          </div>
+          <div class="t-box">
+            <p>28/02/2017</p>
+            <p>Menzgold </p>
+            <p class="amt-fig">20,510.00</p>
+          </div>
+          <div class="t-box">
+            <p>12/02/2017</p>
+            <p>Johnny Steel Ltd</p>
+            <p class="amt-fig">120,000.00</p>
+          </div>
+          <div class="t-box">
+            <p>02/02/2017</p>
+            <p>Latex Ltd</p>
+            <p class="amt-fig">50,000.00</p>
+          </div>
+
+          <div class="total">
+            <p>Total Expenses:</p>
+            <p><strong>1,276,918.00</strong></p>
+
+            <p>Available Balance:</p>
+            <p class="title"><strong>1,185,918.00</strong></p>
+          </div>
+
+
+        </div>
+
+        <div id="newlog-paymentsNTransfers-zamani"class="newlog-paymentsNTransfers">
+          <h3>Powered by Rapidtransfer</h3>
+          <p>Select Account</p>
+          <div class="sendsdetial-box">
+            Current account - 498***801
+          </div>
+
+
+          <p>Destination country</p>
+          <Select class="sendsdetial-box">
+            <option>Denmark</option>
+            <option>France</option>
+            <option>Spain</option>
+            <option>Italy</option>
+            <option>Wales</option>
+            <option>Switzerland</option>
+            <option>Greece</option>
+            <option>Netherlands</option>
+            <option>Sweden</option>
+            <option>Austria</option>
+            <option>Iceland</option>
+            <option>Norway</option>
+            <option>Ukraine</option>
+            <option>Malta</option>
+            <option>Hungary</option>
+            <option>Romania</option>
+            <option>Cyprus</option>
+            <option>Finland</option>
+            <option>Monaco</option>
+            <option>Slovakia</option>
+          </select>
+
+          <p>Mode of delivery</p>
+          <Select class="sendsdetial-box">
+            <option>Account</option>
+
+          </select>
+
+
+          <p>Destination account</p>
+          <input class="sendsdetial-box" id="newlog-destinationacc-zamani">
+
+          <p>Amount ($ / DKK)</p>
+          <input class="sendsdetial-box" id="newlog-des-amount-zamani">
+
+          <div id="btn-box">
+            <button class="newlog-btnTransfer" id="newlog-btntransfer-zamani">Transfer</button>
+          </div>
+
+          <script>
+          /*When transfer button is clicked*/
+          $("#newlog-btntransfer-zamani").click(function(){
+            if($("#newlog-destinationacc-zamani,#newlog-des-amount-zamani").val().length === 0){
+              alert("Fields can't be left blank");
+              $("#newlog-destinationacc-zamani,#newlog-des-amount-zamani").css("border-color","red");
+            }else{
+            $("#newlog-btntransfer-zamani").html('Transfer <img src="img/ajax-loaderrr.gif"height="12"> ');
+            setTimeout(function(){
+              $("#newlog-btntransfer-zamani").html('Transfer');
+
+              alert("Transaction timeout. Transfer taking longer than usual. Visit our nearest branch if problem persist.");
+
+              $("#newlog-destinationacc,#newlog-des-amount").val('');
+            },5000);
+            }
+          });
+          </script>
+        </div>
+
+        <div id="newlog-customerservice-zamani" class="newlog-customerservice">
+          <h3>24/7 Customer service</h3>
+          <p id="helpMessage"> Are you having trouble with something?. Send us
+            a message and one of our service personnels will help
+            you out.
+          </p>
+          <p>Enter Email</p>
+          <input type="text" placeholder="email" id="newlog-email">
+          <p>Enter message</p>
+          <textarea name="message" rows="10" cols="30"></textarea>
+          <p class="newlog-warning">Feilds can't be left blank</p>
+          <button id="btn-sendmessage-zamani" class="btn-sendmessage">Send message</button>
+          <!--When Send message is clicked-->
+          <script>
+            $("#btn-sendmessage-zamani").click(function(){
+              if($("#newlog-customerservice-zamani input").val()== "" || $("#newlog-customerservice-zamani textarea").val()== ""){
+
+                $(".newlog-warning").show();
+                $("#newlog-customerservice-zamani input, textarea").css("border-color",'red');
+              }else{
+                setTimeout(function(){
+                  $(".newlog-warning").hide();
+
+                  $("#newlog-customerservice-zamani input,#newlog-customerservice-zamani textarea" ).val("");
+                  $("#newlog-customerservice-zamani").slideUp();
+                  $(".newlog-currentsavings").slideDown();
+                    alert("We will respond to your message via email. Thank you for banking with us");
+                }, 500);
+              }
+            });
+          </script>
+        </div>
+
+        <script>
+
+          /*Account payment is clicked*/
+          $("#btn-accountPayment-zamani").click(function(){
+            $(".newlog-currentsavings").slideUp();
+            $("#newlog-customerService-zamani").slideUp();
+            $("#newlog-paymentsNTransfers-zamani").slideDown();
+          });
+
+          /*Account Customer service is clicked*/
+          $("#btn-customerService-zamani").click(function(){
+            $(".newlog-currentsavings").slideUp();
+            $("#newlog-paymentsNTransfers-zamani").slideUp();
+            $("#newlog-customerservice-zamani").slideDown();
+
+          });
+
+          /*Account Account Information is clicked*/
+          $("#btn-accountInfo-zamani").click(function(){
+            $("#newlog-paymentsNTransfers-zamani").slideUp();
+            $("#newlog-customerservice-zamani").slideUp();
+            $(".newlog-currentsavings").slideDown();
+
+          });
+        </script>
+
+        <a href="aclogs.html"><button class="btn-newlog-logout"> Log out</button></a>
+
+      </div>
+
+    </div>
+
+
+    <!--Richmond ACCOUNT -->
+    <div id="login-display-richmond">
+
+      <div class="newlog-name">
+        <h2>Mr Richmond Aziatre</h2>
+        <img src="img/lockedkey.png">
+      </div>
+      <div class="newlog-acc-detials">
+        <div class="acc-det-informtion" id="btn-accountInfo-richmond">
+          Account Information
+        </div>
+        <div class="acc-det-informtion" id="btn-accountPayment-richmond">
+          Account Payments & Transfers
+        </div>
+        <div class="acc-det-informtion" id="btn-customerService-richmond">
+          Customer Services
+        </div>
+      </div>
+
+
+      <!--Account Information-->
+      <div class="acc-info">
+        <h3>Account Summary</h3>
+        <span class="newlog-word">
+          <p class="reduceFont">Total Portfolio Amount (DKK Equivalent)</p>
+          <p class="reduceFont">Total Portfolio Amount (USD Equivalent)</p>
+          <p class="money"><strong>7,727,875.62</strong></p>
+          <p class="money"><strong>1,200,553.00</strong></p>
+
+        </span>
+
+
+
+
+
+        <div class="newlog-currentsavings">
+          <h5>Current and savings</h5>
+          <span>
+           <p class="title">Account Number</p>
+            <p>4983014532750801</p>
+          </span>
+          <span>
+            <p class="title">Account Type</p>
+          </p>  Savings Account</p>
+          </span>
+          <span>
+            <p class="title">Currency</p>
+            <p>DKK</p>
+          </span>
+          <span>
+            <p class="title">Current Balance</p>
+              <p>7,727,875.62</p>
+          </span>
+          <span>
+            <p class="title">Dollar Equivalent</p>
+              <p>1,200,553.00</p>
+          </span>
+
+        </div>
+
+        <div class="newlog-currentsavings" >
+          <h5>Transaction between 01/01/2017 to 02/03/2018</h5>
+
+          <div class="t-box" id="currentsavings-title">
+            <h3>Date</h3>
+            <h3>Details</h3>
+            <h3>Amount</h3>
+          </div>
+
+
+
+          <div class="t-box">
+            <p>03/02/2018</p>
+            <p>Home Depot </p>
+            <p class="amt-fig">599.00</p>
+          </div>
+
+
+
+          <div class="t-box">
+            <p>15/12/2017</p>
+            <p>Vanfuth Assurance Company </p>
+            <p class="amt-fig">5000.00</p>
+          </div>
+          <div class="t-box">
+            <p>05/11/2017</p>
+            <p>Home Depot </p>
+            <p class="amt-fig">2800.00</p>
+          </div>
+          <div class="t-box">
+            <p>08/09/2017</p>
+            <p>FedEx </p>
+            <p class="amt-fig">500.00</p>
+          </div>
+          <div class="t-box">
+            <p>02/07/2017</p>
+            <p>Oceanwave Delivery Service </p>
+            <p class="amt-fig">80,000.00</p>
+          </div>
+          <div class="t-box">
+            <p>19/05/2017</p>
+            <p>N/A </p>
+            <p class="amt-fig">5,500.00</p>
+          </div>
+          <div class="t-box">
+            <p>09/05/2017</p>
+            <p>Tesla Inc </p>
+            <p class="amt-fig">35,600.00</p>
+          </div>
+          <div class="t-box">
+            <p>29/02/2017</p>
+            <p>Wendy's Restuarant </p>
+            <p class="amt-fig">1,399.00</p>
+          </div>
+          <div class="t-box">
+            <p>28/02/2017</p>
+            <p>FirstAlliance Security </p>
+            <p class="amt-fig">5,010.00</p>
+          </div>
+          <div class="t-box">
+            <p>28/02/2017</p>
+            <p>Menzgold </p>
+            <p class="amt-fig">20,510.00</p>
+          </div>
+          <div class="t-box">
+            <p>12/02/2017</p>
+            <p>Johnny Steel Ltd</p>
+            <p class="amt-fig">120,000.00</p>
+          </div>
+          <div class="t-box">
+            <p>02/02/2017</p>
+            <p>Latex Ltd</p>
+            <p class="amt-fig">50,000.00</p>
+          </div>
+
+          <div class="total">
+            <p>Total Expenses:</p>
+            <p><strong>1,246,918.00</strong></p>
+
+            <p>Available Balance:</p>
+            <p class="title"><strong>1,200,533.00</strong></p>
+          </div>
+
+
+        </div>
+
+        <div id="newlog-paymentsNTransfers-richmond"class="newlog-paymentsNTransfers">
+          <h3>Powered by Rapidtransfer</h3>
+          <p>Select Account</p>
+          <div class="sendsdetial-box">
+            Current account - 498***801
+          </div>
+
+
+          <p>Destination country</p>
+          <Select class="sendsdetial-box">
+            <option>Denmark</option>
+            <option>USA</option>
+            <option>Canada</option>
+            <option>France</option>
+            <option>Spain</option>
+            <option>Italy</option>
+            <option>Wales</option>
+            <option>Switzerland</option>
+            <option>Greece</option>
+            <option>Ghana</option>
+            <option>Mali</option>
+            <option>Netherlands</option>
+            <option>Sweden</option>
+            <option>Austria</option>
+            <option>Iceland</option>
+            <option>Norway</option>
+            <option>Ukraine</option>
+            <option>Malta</option>
+            <option>Hungary</option>
+            <option>Romania</option>
+            <option>Cyprus</option>
+            <option>Finland</option>
+            <option>Monaco</option>
+            <option>Slovakia</option>
+          </select>
+
+          <p>Mode of delivery</p>
+          <Select class="sendsdetial-box">
+            <option>Account</option>
+
+          </select>
+
+
+          <p>Destination account</p>
+          <input class="sendsdetial-box" id="newlog-destinationacc-richmond">
+
+          <p>Amount ($ / DKK)</p>
+          <input class="sendsdetial-box" id="newlog-des-amount-richmond">
+
+          <div id="btn-box">
+            <button class="newlog-btnTransfer" id="newlog-btntransfer-richmond">Transfer</button>
+          </div>
+
+          <script>
+          /*When transfer button is clicked*/
+          $("#newlog-btntransfer-richmond").click(function(){
+            if($("#newlog-destinationacc-richmond,#newlog-des-amount-richmond").val().length === 0){
+              alert("Fields can't be left blank");
+              $("#newlog-destinationacc-richmond,#newlog-des-amount-richmond").css("border-color","red");
+            }else{
+            $("#newlog-btntransfer-richmond").html('Transfer <img src="img/ajax-loaderrr.gif"height="12"> ');
+            setTimeout(function(){
+              $("#newlog-btntransfer-richmond").html('Transfer');
+
+              alert("Transaction timeout. Transfer taking longer than usual. Visit our nearest branch if problem persist.");
+
+              $("#newlog-destinationacc,#newlog-des-amount").val('');
+            },5000);
+            }
+          });
+          </script>
+        </div>
+
+        <div id="newlog-customerservice-richmond" class="newlog-customerservice">
+          <h3>24/7 Customer service</h3>
+          <p id="helpMessage"> Are you having trouble with something?. Send us
+            a message and one of our service personnels will help
+            you out.
+          </p>
+          <p>Enter Email</p>
+          <input type="text" placeholder="email" id="newlog-email">
+          <p>Enter message</p>
+          <textarea name="message" rows="10" cols="30"></textarea>
+          <p class="newlog-warning">Feilds can't be left blank</p>
+          <button id="btn-sendmessage-richmond" class="btn-sendmessage">Send message</button>
+          <!--When Send message is clicked-->
+          <script>
+            $("#btn-sendmessage-richmond").click(function(){
+              if($("#newlog-customerservice-richmond input").val()== "" || $("#newlog-customerservice-richmond textarea").val()== ""){
+
+                $(".newlog-warning").show();
+                $("#newlog-customerservice-richmond input, textarea").css("border-color",'red');
+              }else{
+                setTimeout(function(){
+                  $(".newlog-warning").hide();
+
+                  $("#newlog-customerservice-richmond input,#newlog-customerservice-richmond textarea" ).val("");
+                  $("#newlog-customerservice-richmond").slideUp();
+                  $(".newlog-currentsavings").slideDown();
+                    alert("We will respond to your message via email. Thank you for banking with us");
+                }, 500);
+              }
+            });
+          </script>
+        </div>
+
+        <script>
+
+          /*Account payment is clicked*/
+          $("#btn-accountPayment-richmond").click(function(){
+            $(".newlog-currentsavings").slideUp();
+            $("#newlog-customerService-richmond").slideUp();
+            $("#newlog-paymentsNTransfers-richmond").slideDown();
+          });
+
+          /*Account Customer service is clicked*/
+          $("#btn-customerService-richmond").click(function(){
+            $(".newlog-currentsavings").slideUp();
+            $("#newlog-paymentsNTransfers-richmond").slideUp();
+            $("#newlog-customerservice-richmond").slideDown();
+
+          });
+
+          /*Account Account Information is clicked*/
+          $("#btn-accountInfo-richmond").click(function(){
+            $("#newlog-paymentsNTransfers-richmond").slideUp();
+            $("#newlog-customerservice-richmond").slideUp();
+            $(".newlog-currentsavings").slideDown();
+
+          });
+        </script>
+
+        <a href="aclogs.html"><button class="btn-newlog-logout"> Log out</button></a>
+
+      </div>
+
+    </div>
+
+
+    <!--Ross ACCOUNT -->
+    <div id="login-display-ross">
+
+      <div class="newlog-name">
+        <h2>Mr Roosevelt Sam</h2>
+        <img src="img/lockedkey.png">
+      </div>
+      <div class="newlog-acc-detials">
+        <div class="acc-det-informtion" id="btn-accountInfo-ross">
+          Account Information
+        </div>
+        <div class="acc-det-informtion" id="btn-accountPayment-ross">
+          Account Payments & Transfers
+        </div>
+        <div class="acc-det-informtion" id="btn-customerService-ross">
+          Customer Services
+        </div>
+      </div>
+
+
+      <!--Account Information-->
+      <div class="acc-info">
+        <h3>Account Summary</h3>
+        <span class="newlog-word">
+          <p class="reduceFont">Total Portfolio Amount (DKK Equivalent)</p>
+          <p class="reduceFont">Total Portfolio Amount (USD Equivalent)</p>
+          <p class="money"><strong>7,727,875.62</strong></p>
+          <p class="money"><strong>1,200,553.00</strong></p>
+
+        </span>
+
+
+
+
+
+        <div class="newlog-currentsavings">
+          <h5>Current and savings</h5>
+          <span>
+           <p class="title">Account Number</p>
+            <p>4983014532750801</p>
+          </span>
+          <span>
+            <p class="title">Account Type</p>
+          </p>  Savings Account</p>
+          </span>
+          <span>
+            <p class="title">Currency</p>
+            <p>DKK</p>
+          </span>
+          <span>
+            <p class="title">Current Balance</p>
+              <p>7,727,875.62</p>
+          </span>
+          <span>
+            <p class="title">Dollar Equivalent</p>
+              <p>1,200,553.00</p>
+          </span>
+
+        </div>
+
+        <div class="newlog-currentsavings" >
+          <h5>Transaction between 01/01/2017 to 31/12/2018</h5>
+
+          <div class="t-box" id="currentsavings-title">
+            <h3>Date</h3>
+            <h3>Details</h3>
+            <h3>Amount</h3>
+          </div>
+          <div class="t-box">
+            <p>27/08/2018</p>
+            <p>N/A</p>
+            <p class="amt-fig">80,000.00</p>
+          </div>
+          <div class="t-box">
+            <p>27/08/2018</p>
+            <p>Floor Trader</p>
+            <p class="amt-fig">800,000.00</p>
+          </div>
+          <div class="t-box">
+            <p>17/08/2018</p>
+            <p>N/A </p>
+            <p class="amt-fig">40,000.00</p>
+          </div>
+          <div class="t-box">
+            <p>03/02/2018</p>
+            <p>Home Depot </p>
+            <p class="amt-fig">599.00</p>
+          </div>
+
+
+
+
+
+
+
+          <div class="t-box">
+            <p>15/12/2017</p>
+            <p>Vanfuth Assurance Company </p>
+            <p class="amt-fig">5000.00</p>
+          </div>
+          <div class="t-box">
+            <p>05/11/2017</p>
+            <p>Home Depot </p>
+            <p class="amt-fig">2800.00</p>
+          </div>
+          <div class="t-box">
+            <p>08/09/2017</p>
+            <p>FedEx </p>
+            <p class="amt-fig">500.00</p>
+          </div>
+          <div class="t-box">
+            <p>02/07/2017</p>
+            <p>Oceanwave Delivery Service </p>
+            <p class="amt-fig">80,000.00</p>
+          </div>
+          <div class="t-box">
+            <p>19/05/2017</p>
+            <p>N/A </p>
+            <p class="amt-fig">5,500.00</p>
+          </div>
+          <div class="t-box">
+            <p>09/05/2017</p>
+            <p>Tesla Inc </p>
+            <p class="amt-fig">35,600.00</p>
+          </div>
+          <div class="t-box">
+            <p>29/02/2017</p>
+            <p>Wendy's Restuarant </p>
+            <p class="amt-fig">1,399.00</p>
+          </div>
+          <div class="t-box">
+            <p>28/02/2017</p>
+            <p>FirstAlliance Security </p>
+            <p class="amt-fig">5,010.00</p>
+          </div>
+          <div class="t-box">
+            <p>28/02/2017</p>
+            <p>Menzgold </p>
+            <p class="amt-fig">20,510.00</p>
+          </div>
+          <div class="t-box">
+            <p>12/02/2017</p>
+            <p>Johnny Steel Ltd</p>
+            <p class="amt-fig">120,000.00</p>
+          </div>
+          <div class="t-box">
+            <p>02/02/2017</p>
+            <p>Latex Ltd</p>
+            <p class="amt-fig">50,000.00</p>
+          </div>
+
+          <div class="total">
+            <p>Total Expenses:</p>
+            <p><strong>1,246,918.00</strong></p>
+
+            <p>Available Balance:</p>
+            <p class="title"><strong>1,200,533.00</strong></p>
+          </div>
+
+
+        </div>
+
+        <div id="newlog-paymentsNTransfers-ross"class="newlog-paymentsNTransfers">
+          <h3>Powered by Rapidtransfer</h3>
+          <p>Select Account</p>
+          <div class="sendsdetial-box">
+            Current account - 498***801
+          </div>
+
+
+          <p>Destination country</p>
+          <Select class="sendsdetial-box">
+            <option>Denmark</option>
+            <option>France</option>
+            <option>Spain</option>
+            <option>Italy</option>
+            <option>Wales</option>
+            <option>Switzerland</option>
+            <option>Greece</option>
+            <option>Netherlands</option>
+            <option>Sweden</option>
+            <option>Austria</option>
+            <option>Iceland</option>
+            <option>Norway</option>
+            <option>Ukraine</option>
+            <option>Malta</option>
+            <option>Hungary</option>
+            <option>Romania</option>
+            <option>Cyprus</option>
+            <option>Finland</option>
+            <option>Monaco</option>
+            <option>Slovakia</option>
+          </select>
+
+          <p>Mode of delivery</p>
+          <Select class="sendsdetial-box">
+            <option>Account</option>
+
+          </select>
+
+
+          <p>Destination account</p>
+          <input class="sendsdetial-box" id="newlog-destinationacc-ross">
+
+          <p>Amount ($ / DKK)</p>
+          <input class="sendsdetial-box" id="newlog-des-amount-ross">
+
+          <div id="btn-box">
+            <button class="newlog-btnTransfer" id="newlog-btntransfer-ross">Transfer</button>
+          </div>
+
+          <script>
+          /*When transfer button is clicked*/
+          $("#newlog-btntransfer-ross").click(function(){
+            if($("#newlog-destinationacc-ross,#newlog-des-amount-ross").val().length === 0){
+              alert("Fields can't be left blank");
+              $("#newlog-destinationacc-ross,#newlog-des-amount-ross").css("border-color","red");
+            }else{
+            $("#newlog-btntransfer-ross").html('Transfer <img src="img/ajax-loaderrr.gif"height="12"> ');
+            setTimeout(function(){
+              $("#newlog-btntransfer-ross").html('Transfer');
+
+              alert("Transaction timeout. Transfer taking longer than usual. Visit our nearest branch if problem persist.");
+
+              $("#newlog-destinationacc,#newlog-des-amount").val('');
+            },5000);
+            }
+          });
+          </script>
+        </div>
+
+        <div id="newlog-customerservice-ross" class="newlog-customerservice">
+          <h3>24/7 Customer service</h3>
+          <p id="helpMessage"> Are you having trouble with something?. Send us
+            a message and one of our service personnels will help
+            you out.
+          </p>
+          <p>Enter Email</p>
+          <input type="text" placeholder="email" id="newlog-email">
+          <p>Enter message</p>
+          <textarea name="message" rows="10" cols="30"></textarea>
+          <p class="newlog-warning">Feilds can't be left blank</p>
+          <button id="btn-sendmessage-ross" class="btn-sendmessage">Send message</button>
+          <!--When Send message is clicked-->
+          <script>
+            $("#btn-sendmessage-ross").click(function(){
+              if($("#newlog-customerservice-ross input").val()== "" || $("#newlog-customerservice-ross textarea").val()== ""){
+
+                $(".newlog-warning").show();
+                $("#newlog-customerservice-ross input, textarea").css("border-color",'red');
+              }else{
+                setTimeout(function(){
+                  $(".newlog-warning").hide();
+
+                  $("#newlog-customerservice-ross input,#newlog-customerservice-ross textarea" ).val("");
+                  $("#newlog-customerservice-ross").slideUp();
+                  $(".newlog-currentsavings").slideDown();
+                    alert("We will respond to your message via email. Thank you for banking with us");
+                }, 500);
+              }
+            });
+          </script>
+        </div>
+
+        <script>
+
+          /*Account payment is clicked*/
+          $("#btn-accountPayment-ross").click(function(){
+            $(".newlog-currentsavings").slideUp();
+            $("#newlog-customerService-ross").slideUp();
+            $("#newlog-paymentsNTransfers-ross").slideDown();
+          });
+
+          /*Account Customer service is clicked*/
+          $("#btn-customerService-ross").click(function(){
+            $(".newlog-currentsavings").slideUp();
+            $("#newlog-paymentsNTransfers-ross").slideUp();
+            $("#newlog-customerservice-ross").slideDown();
+
+          });
+
+          /*Account Account Information is clicked*/
+          $("#btn-accountInfo-ross").click(function(){
+            $("#newlog-paymentsNTransfers-ross").slideUp();
+            $("#newlog-customerservice-ross").slideUp();
+            $(".newlog-currentsavings").slideDown();
+
+          });
+        </script>
+
+        <a href="aclogs.html"><button class="btn-newlog-logout"> Log out</button></a>
+
+      </div>
+
+    </div>
+
+
+    <!--Nolele ACCOUNT -->
+    <div id="login-display-nolele">
+
+      <div class="newlog-name">
+        <h2>Mr David Delzer</h2>
+        <img src="img/lockedkey.png">
+      </div>
+      <div class="newlog-acc-detials">
+        <div class="acc-det-informtion" id="btn-accountInfo-nolele">
+          Account Information
+        </div>
+        <div class="acc-det-informtion" id="btn-accountPayment-nolele">
+          Account Payments & Transfers
+        </div>
+        <div class="acc-det-informtion" id="btn-customerService-nolele">
+          Customer Services
+        </div>
+      </div>
+
+
+      <!--Account Information-->
+      <div class="acc-info">
+        <h3>Account Summary</h3>
+        <span class="newlog-word">
+          <p class="reduceFont">Total Portfolio Amount (DKK Equivalent)</p>
+          <p class="reduceFont">Total Portfolio Amount (USD Equivalent)</p>
+          <p class="money"><strong>7,727,875.62</strong></p>
+          <p class="money"><strong>1,200,553.00</strong></p>
+
+        </span>
+
+
+
+
+
+        <div class="newlog-currentsavings">
+          <h5>Current and savings</h5>
+          <span>
+           <p class="title">Account Number</p>
+            <p>4983014532750801</p>
+          </span>
+          <span>
+            <p class="title">Account Type</p>
+          </p>  Savings Account</p>
+          </span>
+          <span>
+            <p class="title">Currency</p>
+            <p>DKK</p>
+          </span>
+          <span>
+            <p class="title">Current Balance</p>
+              <p>7,727,875.62</p>
+          </span>
+          <span>
+            <p class="title">Dollar Equivalent</p>
+              <p>1,200,553.00</p>
+          </span>
+
+        </div>
+
+        <div class="newlog-currentsavings" >
+          <h5>Transaction between 01/01/2016 to 31/12/2018</h5>
+
+          <div class="t-box" id="currentsavings-title">
+            <h3>Date</h3>
+            <h3>Details</h3>
+            <h3>Amount</h3>
+          </div>
+          <div class="t-box">
+            <p>15/08/2017</p>
+            <p>N/A</p>
+            <p class="amt-fig">80,000.00</p>
+          </div>
+
+          <div class="t-box">
+            <p>17/03/2017</p>
+            <p>Maurit Hospital</p>
+            <p class="amt-fig">40,000.00</p>
+          </div>
+          <div class="t-box">
+            <p>03/02/2017</p>
+            <p>Home Depot </p>
+            <p class="amt-fig">599.00</p>
+          </div>
+
+
+
+
+
+
+
+          <div class="t-box">
+            <p>15/12/2016</p>
+            <p>Vanfuth Assurance Company </p>
+            <p class="amt-fig">5000.00</p>
+          </div>
+          <div class="t-box">
+            <p>05/11/2016</p>
+            <p>Home Depot </p>
+            <p class="amt-fig">2800.00</p>
+          </div>
+          <div class="t-box">
+            <p>08/09/2016</p>
+            <p>FedEx </p>
+            <p class="amt-fig">500.00</p>
+          </div>
+          <div class="t-box">
+            <p>02/07/2016</p>
+            <p>Oceanwave Delivery Service </p>
+            <p class="amt-fig">80,000.00</p>
+          </div>
+          <div class="t-box">
+            <p>19/05/2016</p>
+            <p>N/A </p>
+            <p class="amt-fig">5,500.00</p>
+          </div>
+          <div class="t-box">
+            <p>09/05/2016</p>
+            <p>Tesla Inc </p>
+            <p class="amt-fig">35,600.00</p>
+          </div>
+          <div class="t-box">
+            <p>29/02/2016</p>
+            <p>Wendy's Restuarant </p>
+            <p class="amt-fig">1,399.00</p>
+          </div>
+          <div class="t-box">
+            <p>28/02/2016</p>
+            <p>FirstAlliance Security </p>
+            <p class="amt-fig">5,010.00</p>
+          </div>
+          <div class="t-box">
+            <p>28/02/2016</p>
+            <p>Menzgold </p>
+            <p class="amt-fig">20,510.00</p>
+          </div>
+          <div class="t-box">
+            <p>12/02/2016</p>
+            <p>Johnny Steel Ltd</p>
+            <p class="amt-fig">120,000.00</p>
+          </div>
+          <div class="t-box">
+            <p>02/02/2016</p>
+            <p>Latex Ltd</p>
+            <p class="amt-fig">50,000.00</p>
+          </div>
+
+          <div class="total">
+            <p>Total Expenses:</p>
+            <p><strong>1,246,918.00</strong></p>
+
+            <p>Available Balance:</p>
+            <p class="title"><strong>1,200,533.00</strong></p>
+          </div>
+
+
+        </div>
+
+        <div id="newlog-paymentsNTransfers-nolele"class="newlog-paymentsNTransfers">
+          <h3>Powered by Rapidtransfer</h3>
+          <p>Select Account</p>
+          <div class="sendsdetial-box">
+            Current account - 498***801
+          </div>
+
+
+          <p>Destination country</p>
+          <Select class="sendsdetial-box">
+            <option>Denmark</option>
+            <option>France</option>
+            <option>Spain</option>
+            <option>Italy</option>
+            <option>Wales</option>
+            <option>Switzerland</option>
+            <option>Greece</option>
+            <option>Netherlands</option>
+            <option>Sweden</option>
+            <option>Austria</option>
+            <option>Iceland</option>
+            <option>Norway</option>
+            <option>Ukraine</option>
+            <option>Malta</option>
+            <option>Hungary</option>
+            <option>Romania</option>
+            <option>Cyprus</option>
+            <option>Finland</option>
+            <option>Monaco</option>
+            <option>Slovakia</option>
+          </select>
+
+          <p>Mode of delivery</p>
+          <Select class="sendsdetial-box">
+            <option>Account</option>
+
+          </select>
+
+
+          <p>Destination account</p>
+          <input class="sendsdetial-box" id="newlog-destinationacc-nolele">
+
+          <p>Amount ($ / DKK)</p>
+          <input class="sendsdetial-box" id="newlog-des-amount-nolele">
+
+          <div id="btn-box">
+            <button class="newlog-btnTransfer" id="newlog-btntransfer-nolele">Transfer</button>
+          </div>
+
+          <script>
+          /*When transfer button is clicked*/
+          $("#newlog-btntransfer-nolele").click(function(){
+            if($("#newlog-destinationacc-nolele,#newlog-des-amount-nolele").val().length === 0){
+              alert("Fields can't be left blank");
+              $("#newlog-destinationacc-nolele,#newlog-des-amount-nolele").css("border-color","red");
+            }else{
+            $("#newlog-btntransfer-nolele").html('Transfer <img src="img/ajax-loaderrr.gif"height="12"> ');
+            setTimeout(function(){
+              $("#newlog-btntransfer-nolele").html('Transfer');
+
+              alert("Transaction timeout. Transfer taking longer than usual. Visit our nearest branch if problem persist.");
+
+              $("#newlog-destinationacc,#newlog-des-amount").val('');
+            },5000);
+            }
+          });
+          </script>
+        </div>
+
+        <div id="newlog-customerservice-nolele" class="newlog-customerservice">
+          <h3>24/7 Customer service</h3>
+          <p id="helpMessage"> Are you having trouble with something?. Send us
+            a message and one of our service personnels will help
+            you out.
+          </p>
+          <p>Enter Email</p>
+          <input type="text" placeholder="email" id="newlog-email">
+          <p>Enter message</p>
+          <textarea name="message" rows="10" cols="30"></textarea>
+          <p class="newlog-warning">Feilds can't be left blank</p>
+          <button id="btn-sendmessage-nolele" class="btn-sendmessage">Send message</button>
+          <!--When Send message is clicked-->
+          <script>
+            $("#btn-sendmessage-nolele").click(function(){
+              if($("#newlog-customerservice-nolele input").val()== "" || $("#newlog-customerservice-nolele textarea").val()== ""){
+
+                $(".newlog-warning").show();
+                $("#newlog-customerservice-nolele input, textarea").css("border-color",'red');
+              }else{
+                setTimeout(function(){
+                  $(".newlog-warning").hide();
+
+                  $("#newlog-customerservice-nolele input,#newlog-customerservice-nolele textarea" ).val("");
+                  $("#newlog-customerservice-nolele").slideUp();
+                  $(".newlog-currentsavings").slideDown();
+                    alert("We will respond to your message via email. Thank you for banking with us");
+                }, 500);
+              }
+            });
+          </script>
+        </div>
+
+        <script>
+
+          /*Account payment is clicked*/
+          $("#btn-accountPayment-nolele").click(function(){
+            $(".newlog-currentsavings").slideUp();
+            $("#newlog-customerService-nolele").slideUp();
+            $("#newlog-paymentsNTransfers-nolele").slideDown();
+          });
+
+          /*Account Customer service is clicked*/
+          $("#btn-customerService-nolele").click(function(){
+            $(".newlog-currentsavings").slideUp();
+            $("#newlog-paymentsNTransfers-nolele").slideUp();
+            $("#newlog-customerservice-nolele").slideDown();
+
+          });
+
+          /*Account Account Information is clicked*/
+          $("#btn-accountInfo-nolele").click(function(){
+            $("#newlog-paymentsNTransfers-nolele").slideUp();
+            $("#newlog-customerservice-nolele").slideUp();
+            $(".newlog-currentsavings").slideDown();
+
+          });
+        </script>
+
+        <a href="aclogs.html"><button class="btn-newlog-logout"> Log out</button></a>
+
+      </div>
+
+    </div>
+
+
+
+
+  <div id="footerContainer">
+        <h2>vestjyskBank Banking</h2>
+        <p><i class="footer-rightArrow"></i> Group Banking</p>
+        <p><i class="footer-rightArrow"></i> Corporrate and Investment Banking</p>
+        <p><i class="footer-rightArrow"></i> Commercial Banking</p>
+        <p><i class="footer-rightArrow"></i> Security</p>
+        <p><i class="footer-rightArrow"></i> Help Centre</p>
+        <p><i class="footer-rightArrow"></i> Contact</p>
+
+        <div id="country">
+
+          <h3><img src="img/denmark.png"> vestjyskBank Denmark </h3>
+        </div>
+        <button>Find out more</button>
+
+        <div id="footer-bottom">
+          <a href="#" class="fa fa-youtube"></a>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+
+          <hr/>
+
+          <p>Privacy policy</p> <p>Terms of Use</p> <p>Sitemap</p>
+          <p>Extranet</p> <p>Whistleblowing</p>
+
+          <p id="copyright"> © vestjyskBank 2018</p>
+        </div>
+
+
+  </div>
+</body>
+</html>

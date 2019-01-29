@@ -1,0 +1,882 @@
+html,body{
+  margin:0;
+  padding:0;
+  width: 100%;
+}
+body{
+}
+
+body p{
+  margin:0;
+  padding: 0;
+}
+html{
+  position: relative;
+  font-size: 100%;
+}
+
+
+
+#pageContainer{
+  padding-bottom: 850px;
+  position: relative;
+}
+
+
+    header{
+      background: rgb(244,120,44);
+      overflow: hidden;
+      width: 100%;
+    }
+    #topHead{
+      display: none;
+
+    }
+
+
+
+
+
+    #secondHead{
+      margin:0;
+      padding: 2% 0;
+      padding-left: 1%;
+      position: relative;
+    }
+    #logo{
+      width: 92px;
+      border-radius: 17px;
+    }
+    #secondThings{
+      display: inline-block;
+      width: 66px;
+      font-size: 110%;
+      position: absolute;
+      right:0;
+    }
+    .items{
+      position: relative;
+      width: 57px;
+      text-align: center;
+      float: right;
+      margin-left: 5%;
+      height: 40px;
+      cursor: pointer;
+    }
+    .items:hover{
+      background: rgb(144,70,1);
+    }
+    #en{
+      display: none;
+    }
+    #hideSearch{
+      display: none;
+    }
+
+    /*menu clicked*/
+    #menuContainer{
+      display: none;
+      width: 100%;
+      background: rgb(222, 222, 222);
+      width: 100%;
+      z-index: 99;
+      top:0;
+    }
+    #menu-m{
+      display: block;
+      width: 100%;
+      position: absolute;
+      right: 0;
+      background: rgb(222, 222, 222);
+    }
+       .menu-items:hover{
+         background: rgb(242,92,0);
+       }
+
+    /* Hide All menu*/
+    .menus{
+      display: none;
+      background: rgb(222, 222, 222);
+      position: absolute;
+      width: 100%;
+      z-index: 99;
+      left: 0;
+    }
+       .menu-items{
+        margin-top: 3px;
+        width: 98%;
+      }
+        .menu-items p{
+          display: block;
+          padding: 10px;
+          position: relative;
+          border-bottom: 1px solid #333;
+
+        }
+
+        .menu-items i{
+          border: solid black;
+          border-width:0 2px 2px 0;
+          display: inline-block;
+          padding: 5px 4px 4px 5px;
+
+        }
+        .rightArrow{
+          transform:rotate(-43deg)!important;
+          -webkit-transform: rotate(-43deg)!important;
+          position: absolute;
+          right:0;
+        }
+
+          .backArrow{
+          transform:rotate(135deg) !important;
+          -webkit-transform: rotate(135deg)!important;
+        }
+
+    .items p{
+      display: inline;
+      position: absolute;
+      bottom: 0;
+      left:0;
+      right:0;
+      color: rgb(99,65,65);
+    }
+    .items img{
+      width:20px;
+      margin-bottom: 5px;
+
+    }
+
+
+    #thirdHead{
+      display: none;
+    }
+
+
+    #menu-m{
+      width: 99%;
+      text-align: left;
+      padding: 10px  5px;
+      position: relative;
+      overflow: hidden;
+      height: 330px;
+    }
+
+
+
+        /*EveryDay iC*/
+    #edBanking{
+    }
+    /*menu-everyday Banking*/
+
+    /*currentAccount iC*/
+    #currentAccount{
+      background: red;
+    }
+
+        .everymenu{
+          width: 100%;
+          background: #fff;
+          width: 100%;
+          z-index: 99;
+          top:0;
+        }
+/*LOGIN SIDE */
+
+  #loginContainer{
+    display: none;
+    padding: 10px 5px 10px 5px ;
+  }
+  #loginContainer img{
+    width: 14px;
+  }
+
+/*Contact side */
+  #contactContainer{
+    display: none;
+    padding: 10px 5px 10px 5px ;
+  }
+  #contactContainer img{
+    width: 14px;
+  }
+    .LC-title{
+      color:red;
+      font-family: sans-serif;
+    }
+
+    .LC-p{
+      background: rgb(244,120,44);
+      display: inline-block;
+      margin-right: 1%;
+      text-align: center;
+      padding: 10px 20px 10px 20px;
+      border-radius: 3px;
+      color: silver;
+      margin-top: 5px;
+    }
+
+
+
+    /* LOGIN PAGE */
+
+  #login-first{
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px solid green;
+    display: none!important;
+  }
+  #login-first-mobile{
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px solid green;
+
+  }
+  /*Hide -test*/
+  #login-first,#login-second{
+    display: block;
+  }
+
+  #login-second{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+  #login-second h3{
+    text-align: center;
+    width: 95%;
+  }
+  #login-second-box{
+    padding: 10px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #login-second-box h3{
+    border-bottom: 1px solid rgb(222, 222, 222);
+    padding-bottom: 10px;
+    font-weight: normal;
+    text-align: left;
+  }
+  #login-userId{
+    padding-bottom: 15px;
+  }
+  #login-alias{
+    padding: 8px 5px;
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  #myInput{
+    display: none;
+    padding: 8px 5px;
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  #showpassword{
+    display: none;
+  }
+  #btn-login{
+    display: none;
+  }
+  #login-second-box button{
+    padding: 15px 25px 15px 25px;
+    margin-bottom: 20px;
+  }
+
+  #login-warning{
+    width: 100%;
+    margin-top: 50px;
+  }
+  #login-warning h4{
+    text-align: center;
+    background: rgb(244,150,42);
+    margin: 0;
+    padding: 30px;
+  }
+  #login-warning p{
+    border-bottom: 1px solid green;
+    color: rgb(150,150,150);
+    padding: 10px 5px;
+    font-weight: lighter;
+  }
+  #login-second span{
+    color: rgb(244, 120, 44);
+  }
+
+
+  /* Login Display */
+  #login-display{
+    display: none;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+  }
+  #fundsBalance,#funds{
+    color: green;
+    font-weight: 1000;
+    font-size: 134%;
+  }
+  #login-display h3{
+    text-align: left;
+  }
+  #client-name{
+    text-align: center!important;
+    color: rgb(242,92,0);
+  }
+
+  .login-display-boxes{
+
+    border-top: 1px solid brown;
+
+  }
+  .login-display-boxes span div{
+    width: 50%;
+    float: right;
+    padding-top: 10px;
+
+  }
+  #login-amountt{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  #login-amountt p{
+    text-align: center;
+  }
+  #login-amountt span{
+    background: blue;
+  }
+
+  .login-display-boxes p{
+    padding-bottom: 10px;
+  }
+
+  .transaction-box{
+    display: block;
+    margin-top: 5vh;
+  }
+  .transaction-box h3{
+    border-bottom: 1px solid rgb(176,176,176);
+    border-top: 1px solid rgb(176,176,176);
+    width: 100%!important;
+    padding: 10px 0;
+  }
+  .transaction-in span{
+    color: rgb(242,92,0);
+  }
+
+    /*Transations details*/
+    #transaction-details span{
+      border-bottom: 1px solid rgb(176,176,176);
+      display: block;
+      padding: 5px 0;
+      position: relative;
+    }
+    #transaction-details p{
+      width: 50%;
+      display: inline;
+    }
+    .t-right{
+      float: right;
+      width: 20%!important;
+    }
+    #transaction-sends{
+      margin: 30px 0;
+    }
+    #transaction-sends span{
+      color: black;
+      display: inline-block;
+      width: 71%;
+      padding: 30px 10px;
+      cursor: pointer;
+    }
+    #transaction-sends span:hover{
+      background: rgb(244, 120, 44);
+    }
+
+    .sends-box{
+      display: inline-block;
+      width: 30%;
+      text-align: center;
+    }
+    .sends-box img{
+      width: 100%;
+    }
+    /*Sends and Transfers*/
+    #sends-details, .quicklinks{
+      margin-top: 30px;
+      margin-bottom: 100px;
+      display: none;
+    }
+    #powered{
+      text-align: center;
+      background: rgb(244, 120, 44);
+      letter-spacing: 3px;
+      font-style: italic;
+      margin-bottom: 5px;
+      color: green;
+      font-weight: bold;
+      padding: 10px 0;
+    }
+    .sendsdetial-box{
+      margin: 5px 0;
+      border: 1px solid grey;
+      padding: 20px 10px;
+      width: 90%;
+    }
+    #sends-detials input{
+      width: 100% !important;
+    }
+    #btn-box{
+      text-align: center;
+    }
+    #btn-transfer{
+      padding: 20px 0;
+      width: 40%;
+      background: green!important;
+      color: white;
+    }
+
+    /*Buy airtime */
+    #buyairtime-details p{
+      text-align: center;
+    }
+    #cart{
+      width: 15%;
+      margin-left: 34vw;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    .card{
+      width: 20%;
+      border: 1px solid transparent;
+      margin-left: 20%;
+      cursor: pointer;
+      height: 100px;
+      margin-top: 50px;
+    }
+    .card:hover{
+      border-color: rgb(244, 120, 44);
+    }
+
+
+
+
+    #enquiries-txt{
+      margin-top: 10px;
+      font-size: 70%;
+    }
+  a {
+    cursor: pointer;
+  }
+
+  #logoutBtn{
+    margin-top:  50px;
+    width: 100%;
+    padding: 5px;
+
+  }
+    /*End of LOGIN DISPLAY--------------------------*/
+
+    .newlog-acc-detials img{
+      width: 23%;
+    }
+    .logout-top{
+      position: relative;
+      width: 57px;
+      text-align: center;
+      float: left;
+      margin-left: 5%;
+      height: 40px;
+      cursor: pointer;
+      display: none;
+    }
+    .logout-top img{
+      width: 34%;
+    }
+    .logout-top p{
+      margin: 0;
+      position: absolute;
+      bottom: 0;
+    }
+    .logout-top p:hover{
+      color:red;
+      transition: 0.5s;
+    }
+    /*Zamani*/
+    #login-display-zamani{
+      font-family: sans-serif;
+      display: none;
+    }
+
+
+    .newlog-name{
+      background: rgb(203,203,203);
+      padding: 10px 5%;
+    }
+    .newlog-name h2{
+      color:rgb(242,92,0);
+    }
+    .newlog-name img{
+      width: 15px;
+    }
+    .newlog-acc-detials{
+      background: rgb(251,155,0);
+      overflow: hidden;
+      padding: 0 5%;
+    }
+    .acc-det-informtion{
+      border: 2px solid rgb(191,191,191);
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      text-align: center;
+      margin-right: 1%;
+      padding: 4px;
+
+    }
+    .acc-det-informtion:hover{
+      background: rgb(77,198,0);
+      color: rgb(219,219,219);
+    }
+    .money{
+      color: green;
+      padding: 5px 0;
+    }
+
+    /*Account information*/
+.acc-info{
+      margin-left: 0%;
+
+    }
+    .acc-info h3{
+      color: rgb(242,92,0);
+      border-bottom: 1px solid rgb(242,92,0);
+      padding-left: 2%;
+    }
+
+    .reduceFont{
+      font-size: 60%!important;
+    }
+    .newlog-word{
+      display: inline-block;
+      margin-left: 2%;
+    }
+    .newlog-word p{
+      display: inline-block;
+      float: left;
+      width: 50%;
+      font-size: 90%;
+    }
+    .newlog-currentsavings{
+      margin-top: 30px;
+      display: inline-block;
+      padding-left: 5%;
+    }
+
+    .newlog-currentsavings h5{
+      border-bottom: 1px solid rgb(242,92,0);
+      color: rgb(244,120,44);
+    }
+    .newlog-currentsavings span{
+      font-size: 90%;
+      display: inline-block;
+      margin-bottom: 5%;
+      width: 100%;
+    }
+    .title{
+      color: rgb(193, 193, 193);
+    }
+
+    /*New transacbox*/
+    #currentsavings-title{
+      border:none;
+    }
+    .t-box{
+      border-bottom: 1px solid red;
+      overflow: hidden;
+    }
+    .t-box p {
+      width: 33%;
+      float: left;
+      padding: 30px 0;
+    }
+    .t-box h3 {
+      width: 31%;
+      float: left;
+    }
+    .total p{
+      width: 50%;
+      float: left;
+    }
+    .total {
+      margin-top: 20px;
+    }
+    .amt-fig{
+      text-align: center;
+    }
+    /*Transaction box */
+    .newlog-transacbox{
+      float: left;
+      display: inline-block;
+      width: 32%;
+
+    }
+    .newlog-transacbox h3{
+      border: none;
+    }
+    .newlog-transacbox p{
+      border-bottom: 1px solid rgb(242,92,0);
+      padding: 5px 0px;
+    }
+    .title{
+      color: green;
+    }
+
+
+    /*PAYMENTS AND TRANSFER*/
+    #newlog-paymentsNTransfers,.newlog-paymentsNTransfers{
+      display: none;
+    }
+    .newlog-paymentsNTransfers{
+      padding: 0 10px;
+    }
+    /*Error mesage*/
+    .error-message{
+      color: red;
+    }
+    #newlog-paymentsNTransfers h3, #newlog-customerservice h3{
+      background: rgb(251,155,0);
+      padding: 10px 0;
+      text-align: center;
+    }
+    #newlog-btntransfer,.newlog-btnTransfer{
+      padding: 20px 0;
+      width: 40%;
+      background: green;
+      color: white;
+    }
+    .btn-newlog-logout{
+      width: 95%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 150px;
+      padding: 10px 0;
+    }
+    /*Modal*/
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+
+    /* Modal Content/Box */
+    .modal-content {
+      background-color: #fefefe;
+      margin: 15% auto; /* 15% from the top and centered */
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%; /* Could be more or less, depending on screen size */
+    }
+    /*MOd body*/
+    .mod-head{
+      margin-bottom: 50px;
+    }
+    .mod-body img{
+      width: 100%;
+    }
+    .mod-body p{
+      text-align: center;
+    }
+    #transferbtn-after-zamani{
+      padding: 20px 50px;
+      display: none;
+      margin-bottom: 10px;
+    }
+    .takeawhile{
+      margin-top: 20px;
+      color: rgb(153,153,153);
+    }
+    #transfer-after-zamani{
+      display: none;
+      font-size: 85%;
+    }
+
+
+      /* The Close Button */
+    .close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+
+    /*CUSTOMER SERVICE */
+    #newlog-customerservice, .newlog-customerservice {
+    display: none;
+    background-image: url("img/tree.jpg");
+    background-size: cover;
+    padding: 36px 0;
+    width: 100%;
+    border: 1px solid transparent;
+    }
+    .emailmessage{
+      border: 1px solid transparent;
+      background-color: rgba(0, 0, 0, 0.8);
+      width: 100%;
+      padding: 0 2%;
+      height: 255px;
+      position: relative;
+    }
+    .orange{
+      color: rgb(244,120,44);
+    }
+    #newlog-customerservice p{
+      padding-left: 2%;
+    }
+    #helpMessage{
+      letter-spacing: 2px;
+      color: rgb(193, 193, 193);
+      margin-bottom: 17px;
+    }
+    .newlog-warning{
+      color: red;
+    }
+    #newlog-customerservice input{
+      padding-left:2%;
+      border: 1px solid black;
+      font-size: 100%;
+      margin-left: 2%;
+    }
+    #newlog-email{
+      margin-top: 14px;
+      width: 90%;
+      padding: 8px 0;
+      border-radius: 5px;
+      border-color: transparent;
+    }
+    textarea{
+      margin-left: 2%;
+    }
+    .newlog-warning{
+      display: none;
+      font-size: 90%;
+    }
+    #btn-sendmessage,.btn-sendmessage{
+      padding: 10px 30px;
+      display: block;
+      position: absolute;
+      bottom: 0;
+      margin-bottom: 10px;
+    }
+
+
+    html button{
+        background: rgb(244,120,44);
+        border:none;
+        border-radius: 5px;
+    }
+    html button:hover{
+      box-shadow: 0px 6px 38px 7px #888888;
+    }
+
+
+
+
+
+
+
+
+
+#footerContainer{
+  position: absolute;
+  bottom:0;
+  padding-bottom: 250px;
+  width:100%;
+  background: rgb(66,45,11);
+  color:white;
+  margin-top: 300px;
+  font-family: monospace;
+  padding: 10px 0px 372px 0px;
+}
+
+.footer-rightArrow{
+  width: 0;
+  height: 0;
+  border-top: 6px solid transparent;
+	border-left: 8px solid rgb(244,150,44);
+	border-bottom: 6px solid transparent;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  padding-right: 10px;
+}
+#footerContainer h2{
+  text-align: center;
+}
+#footerContainer p{
+  display: block;
+  font-size: 100% !important;
+  font-family: calibri;
+  font-weight: lighter;
+  margin-bottom: 20px;
+  padding-left: 5px;
+}
+#footerContainer img{
+  width:25px;
+  margin-left: 5px;
+}
+#footerContainer button{
+  padding:15px 25px 15px 25px;
+  margin-left: 5px;
+
+
+}
+#footer-bottom{
+  background: rgb(61,40,7);
+  margin-top: 30px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left:0;
+  right:0;
+  padding: 30px 0 50px 0;
+}
+#footer-bottom a{
+  margin-right: 20px;
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 50px;
+}
+#footer-bottom hr{
+  margin-bottom: 50px;
+}
+#footer-bottom p{
+
+  display: inline-block;
+  color: rgb(244,120,44);
+  padding: 0 5px 0 5px ;
+  border-right: 1px solid rgb(244,120,44);
+}
+#copyright{
+  display: block;
+  width: 90%;
+  border: none !important;
+  padding: none !important;
+}

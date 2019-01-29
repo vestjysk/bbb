@@ -1,0 +1,1744 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>UMB - Ways to bank</title>
+  <link rel="stylesheet" type="text/css" href="contact.css" media="screen and (min-width:1030px)">
+  <link rel="stylesheet" type="text/css" href="contact-ms.css" media="screen and (min-width:760px) and (max-width:1030px)">
+  <link rel="stylesheet" type="text/css" href="contact-ss.css" media="screen and (min-width:0px) and (max-width:760px)">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  <div id="pageContainer">
+      <header>
+
+        <div id="topHead">
+            <a href="umblogs.html"><p>Personal Banking</p></a>
+            <p><a href="commercial.html">Commercial Banking</a></p>
+            <p><a href="corporateNInvestment.html">Corporate and Investment Banking</a></p>
+            <p>Group</p>
+
+            <div id="social">
+              <p style="color:rgb(218,187,168);">Follow us</p>
+              <p class="fa fa-youtube"></p>
+              <p class="fa fa-facebook"></p>
+              <p class="fa fa-twitter"></p>
+              <p class="fa fa-instagram"></p>
+              <p class="fa fa-linkedin"></p>
+            </div>
+        </div>
+
+        <div id="secondHead">
+            <a href="index.html"><img src="umb/bank-logo.png" alt="naturebanklogo" id="logo"></a>
+
+            <div id="secondThings">
+
+              <div class="items" id="hideSearch">
+                <p>Search</p>
+                <img src="img/sch.png">
+              </div>
+
+              <div class="items" id="contact-ms">
+                <p id="second-contact">Contact</p>
+                <img src="img/tele.png">
+                <div class="second-dropdown" id="contact-dropdownbox">
+                  <p>Contact</p>
+                  <button>Get in Touch</button>
+                  <button>Find a Service</button>
+
+                </div>
+                <script>
+                    $(document).ready(function(){
+                      $("#second-contact").click(function(){
+                        //Login dropdown Box
+                        $(".menu").hide();
+                        $("#login-dropdownbox").hide();
+                        $("#contact-dropdownbox").slideToggle('slow');
+                      });
+                    });
+                  </script>
+              </div>
+
+              <div class="items" id="login-ms">
+                <p id="second-login">Login</p>
+                <img src="img/keyyy.png">
+                <div class="second-dropdown" id="login-dropdownbox">
+                  <p>Internet Banking</p>
+                <a href="umblogs.html"><button>Personal</button></a>
+                  <button>Omni</button>
+                  <p>Omni</p>
+                  <button>Trading</button>
+                  <button>Rapidtransfer Online</button>
+                  <button>CashXpress</button>
+                </div>
+                <script>
+                  $(document).ready(function(){
+                    $("#second-login").click(function(){
+                      //Login dropdown Box
+                      $(".menu").hide();
+                        $("#contact-dropdownbox").hide();
+                      $("#login-dropdownbox").slideToggle('slow');
+                    });
+                  });
+                </script>
+              </div>
+
+              <div class="items" id="en">
+                <p>EN</p>
+                <img src="img/usfla.png">
+              </div>
+              <!-- Small SCreen -->
+              <div class="items" id="menu">
+                <p>Menu</p>
+                <img src="img/menu.png">
+              </div>
+
+
+
+            </div>
+        </div>
+
+        <div id="thirdHead">
+
+          <div class="thItems" id="edb">
+            <a href="everydaybank.html">
+              <p>Everyday Banking  </p>
+            </a>
+          </div>
+          <div class="thItems" id="pat">
+            <a href="payNtransfer.html">
+              <p>Payments & Transfers  </p>
+            </a>
+          </div>
+          <div class="thItems" id="wtb">
+            <a href="waystobank.html">
+              <p>Ways to Bank  </p>
+            </a>
+          </div>
+          <div class="thItems" id="pas">
+            <a href="productNservices.html">
+              <p>Products and Services</p>
+            </a>
+          </div>
+          <div class="thItems" id="has">
+            <a href="helpNsecurity.html">
+              <p>Help and Security</p>
+            </a>
+          </div>
+
+                  <!--Catalog for everydayBanking(#edb)-->
+                  <div id="everydayB" class="menu">
+
+                      <div class="section">
+                          <span>
+                            <a href="everydaybank.html"><p>Everyday Banking</p></a>
+                            <p id="currentAccount">Current Accounts <i> </i></p>
+                            <p id="savingsAccount">Savings Accounts <i> </i></p>
+                            <a href="everydaybank.html"><p>e-Account</p></a>
+                            <a href="everydaybank.html"><p>Cards</p></a>
+                            <a href="everydaybank.html"><p>Loans</p></a>
+                            <a href="everydaybank.html"><p>Investment Solutions</p></a>
+                            <a href="everydaybank.html"><p>Bancassurance</p></a>
+                            <a href="everydaybank.html"><p>Apply for an account or service</p></a>
+                          </span>
+                      </div>
+                        <!--End-->
+
+                      <div class="section" id="secondSec">
+                          <h1>Everyday Banking</h1>
+                          <p>
+                            Equipping you with the <br/>
+                            right account for the life<br/>
+                            you lead
+                          </p>
+                      </div>
+                              <!-- show this when current account is hovered -->
+                      <div class="section" id="secondSec-cA">
+                          <span>
+                            <a href="everydaybank.html"><p>Current Account</p></a>
+                            <a href="everydaybank.html"><p>Classic Current Account</p></a>
+                            <p id="advCurrentAcc">Advantage Current Account <i> </i></p>
+                            <p id="prmCurrentAcc">Premier Current Accounts <i> </i></p>
+                            <a href="everydaybank.html"><p>Diaspora Current Account</p></a>
+                            <a href="everydaybank.html"><p>Student Current Account</p></a>
+                          </span>
+                      </div>
+                            <!-- end -->
+
+                            <!-- show this when adv current account is hovered -->
+                    <div class="section" id="secondSec-acA">
+                        <span>
+                          <a href="everydaybank.html"><p>Advantage Current Account</p></a>
+                          <a href="everydaybank.html"><p>Advantage Gold Card Rewards</p></a>
+
+                        </span>
+                    </div>
+                          <!-- end -->
+                          <!-- show this when primier current account is hovered -->
+                          <div class="section" id="secondSec-pcA">
+                              <span>
+                                <a href="everydaybank.html"><p>Premier Current Account</p></a>
+                                <a href="everydaybank.html"><p>Premier Platinum Card Rewards</p></a>
+
+                              </span>
+                          </div>
+                <!-- end -->
+
+                    <!-- show this when savings account is hovered -->
+                    <div class="section" id="secondSec-sA">
+                                    <span>
+                                      <a href="everydaybank.html"><p>Savings Account</p></a>
+                                      <a href="everydaybank.html"><p>Ecobank Savings Account</p></a>
+                                      <a href="everydaybank.html"><p>Classic Savings Account </p></a>
+                                      <a href="everydaybank.html"><p>Advantage Savings Account </p></a>
+                                      <a href="everydaybank.html"><p>Premier Savings Account </p></a>
+                                      <p id="studentSavingsAcc">Student Savings Account<i> </i></p>
+                                    </span>
+                                </div>
+                  <!-- end -->
+
+                  <div class="section" id="thirdSec">
+                      <p><span class="mobBanking">Mobile Banking</span>
+                          <br/>
+                          Just been paid
+                      </p>
+                      <a href="everydaybank.html"><button>Find Out More</button></a>
+
+                  </div>
+
+              <!--Show this when students savings is hovered-->
+              <div class="section" id="thirdSec-ssA">
+                <span>
+                  <a href="everydaybank.html"><p>Student Savings Account </p></a>
+                  <a href="everydaybank.html"><p>Junior Saver Account</p></a>
+                  <a href="everydaybank.html"><p>MyFirst Account</p></a>
+                </span>
+              </div>
+          </div>
+
+
+          <!--Catalog for Payments and Transfers(#edb)-->
+
+          <!--Medium Screen HOlder-->
+            <div id="smallMenuContainer">
+              <div id="paymentsNTransfers-menu" class="menu">
+
+                <div class="section">
+                    <span>
+                      <a href="payNtransfer.html"><p>Payments & Transfers</p></a>
+                      <a href="payNtransfer.html"><p>Rapidtransfer</p></a>
+                      <a href="payNtransfer.html"><p>Remittance Partners</p></a>
+                      <a href="payNtransfer.html"><p>Foreign Exchange</p></a>
+                      <a href="payNtransfer.html"><p>Foreign Exchange</p></a>
+                    </span>
+                </div>
+                  <!--End-->
+
+                <div class="section" id="secondSec">
+                    <h1>Payments & Transfers</h1>
+                    <p>
+                      Making payments at home and abroad easier<br/>
+                      and quicker
+                    </p>
+
+                </div>
+
+
+                <div class="section" id="thirdSec">
+                    <p><span class="mobBanking">Rapidtransfer</span>
+                        <br/>
+                        Send and receive online
+                    </p>
+                    <a href="everydaybank.html"><button>Find Out More</button></a>
+
+                </div>
+
+
+              </div>
+
+
+          <!--Catalog for Ways to bank -->
+          <div id="ways2bank-menu" class="menu">
+
+            <div class="section">
+                <span>
+                  <a href="waystobank.html"><p>Ways to Bank</p></a>
+                  <a href="waystobank.html"><p>Internet Banking</p></a>
+                  <a href="waystobank.html"><p>ATMs</p></a>
+                  <a href="waystobank.html"><p>Cashless Payments (POS)</p></a>
+                  <a href="waystobank.html"><p>Branches</p></a>
+                </span>
+            </div>
+              <!--End-->
+
+            <div class="section" id="secondSec">
+                <h1>Ways to Bank</h1>
+                <p>
+                  Banking designed around you, including on your
+                  <br/> phone and online
+                </p>
+
+            </div>
+
+
+            <div class="section" id="thirdSec">
+                <p><span class="mobBanking">Cards</span>
+                    <br/>
+                    Feeling in control
+                </p>
+                <button><a href="waystobank.html">Find Out More</a></button>
+
+            </div>
+
+
+          </div>
+
+          <!-- Catalog for Products and Services -->
+          <div id="prodNServices-menu" class="menu">
+
+            <div class="section">
+                <span>
+                  <a href="productNservices.html"><p>Products and Services</p></a>
+                  <p id="cards">Cards<i></i></p>
+                  <a href="productNservices.html"><p>Loans</p></a>
+                  <a href="productNservices.html"><p>Payment & Transfers</p></a>
+                  <a href="productNservices.html"><p>Hajj Financial Services</p></a>
+                  <a href="productNservices.html"><p>Bancassurance</p></a>
+                  <p id="investSolutions">Investment Solutions<i></i></p>
+                  <a href="productNservices.html"><p>e-Products</p></a>
+                  <a href="productNservices.html"><p>Microfinance</p></a>
+                  <a href="productNservices.html"><p>Term Deposit</p></a>
+                  <a href="productNservices.html"><p>e-Products</p></a>
+                </span>
+            </div>
+              <!--End-->
+
+              <!--When  cards iH -->
+              <div class="section" id="secondSec-c">
+                  <span>
+                    <a href="productNservices.html"><p>Card Security</p></a>
+                    <a href="productNservices.html"><p>Cards</p></a>
+                    <a href="productNservices.html"><p>Debit Cards</p></a>
+                    <a href="productNservices.html"><p>Credit Cards</p></a>
+                    <p id="prepaidCards">Prepaid Cards<i></i></p>
+                    <a href="productNservices.html"><p>PAC Cards</p></a>
+                    <a href="productNservices.html"><p>Visa</p></a>
+                    <a href="productNservices.html"><p>Mastercard</p></a>
+                  </span>
+              </div>
+
+              <!--When  prepaidCards iH -->
+              <div class="section" id="secondSec-cPC">
+                  <span>
+                    <a href="productNservices.html"><p>Prepaid Cards</p></a>
+                    <a href="productNservices.html"><p>CashXpress</p></a>
+                    <a href="productNservices.html"><p>Salary Express</p></a>
+                  </span>
+              </div>
+
+
+              <!--When  investment solutions iH -->
+              <div class="section" id="secondSec-is">
+                  <span>
+                    <a href="productNservices.html"><p>Investment Solutions</p></a>
+                    <a href="productNservices.html"><p>Fixed Income Fund</p></a>
+                    <a href="productNservices.html"><p>Money Market Fund</p></a>
+                    <a href="productNservices.html"><p>Securities Trading Platform</p></a>
+                    <a href="productNservices.html"><p>UMB TBILL4ALL</p></a>
+                  </span>
+              </div>
+
+            <div class="section" id="secondSecPAS">
+                <h1>Products and Services</h1>
+                <p>
+                  A range of products and services to meet your<br/>
+                  different needs
+                </p>
+
+            </div>
+
+
+            <div class="section" id="thirdSec">
+                <p><span class="mobBanking">UMB TBill4All</span>
+                    <br/>
+                    Invest on the go
+                </p>
+                <a href="productNservices.html"><button>Find Out More</button></a>
+
+            </div>
+
+
+          </div>
+
+            <!--CAtalog for Help and security -->
+    <div id="helpNSecurity-menu" class="menu">
+
+      <div class="section">
+          <span>
+            <a href="helpNsecurity.html"><p>Help and Security</p></a>
+            <p id="helpCentre">Help Centre<i></i></p>
+            <p id="securityCentre">Security Centre<i></i></p>
+            <a href="helpNsecurity.html"><p>Customer Feedback</p></a>
+            <a href="helpNsecurity.html"><p>Privacy Notice</p></a>
+          </span>
+      </div>
+        <!--End-->
+
+            <!-- When Help Centre iH -->
+        <div class="section" id="secondSec-hC">
+            <span>
+              <a href="helpNsecurity.html"><p>Help Centre</p></a>
+              <a href="helpNsecurity.html"><p>Help FAQs</p></a>
+              <a href="helpNsecurity.html"><p>Tips and Advice</p></a>
+              <a href="helpNsecurity.html"><p>Form Downloads</p></a>
+            </span>
+        </div>
+
+            <!--When Security centre iH -->
+            <div class="section" id="secondSec-sC">
+                <span>
+                  <a href="helpNsecurity.html"><p>Security Centre</p></a>
+                  <a href="helpNsecurity.html"><p>Contact Security</p></a>
+                  <a href="helpNsecurity.html"><p>Security Tips</p></a>
+                  <p id="scams">Scams<i></i></p>
+                  <p id="secureBanking">Secure Banking<i></i></p>
+                  <a href="helpNsecurity.html"><p>Trusteer</p></a>
+                  <a href="helpNsecurity.html"><p>Security FAQs</p></a>
+                  <a href="helpNsecurity.html"><p>Report a Scam</p></a>
+                </span>
+            </div>
+
+                <!--Scams iH-->
+                <div class="section" id="secondSec-sCs">
+                    <span>
+                      <a href="helpNsecurity.html"><p>Scams</p></a>
+                      <a href="helpNsecurity.html"><p>Phishing</p></a>
+                      <a href="helpNsecurity.html"><p>Spoof Website</p></a>
+                      <a href="helpNsecurity.html"><p>419 scam</p></a>
+                      <a href="helpNsecurity.html"><p>Keyloggers</p></a>
+
+                    </span>
+                </div>
+
+                <!--ScecureBannking iH-->
+                <div class="section" id="secondSec-sCsb">
+                    <span>
+                      <a href="helpNsecurity.html"><p>Secure Banking</p></a>
+                      <a href="helpNsecurity.html"><p>PC Security</p></a>
+                      <a href="helpNsecurity.html"><p>Internet in public places</p></a>
+                      <a href="helpNsecurity.html"><p>Wi-fi</p></a>
+                      <a href="helpNsecurity.html"><p>Virus awareness</p></a>
+                      <a href="helpNsecurity.html"><p>Identity theft</p></a>
+                      <a href="helpNsecurity.html"><p>Internet Banking</p></a>
+                      <a href="helpNsecurity.html"><p>ATM fraud</p></a>
+                      <a href="helpNsecurity.html"><p>Mobile phone banking</p></a>
+                      <a href="helpNsecurity.html"><p>Card Security</p></a>
+
+                    </span>
+                </div>
+
+
+      <div class="section" id="secondSecc">
+          <h1>Help and Security</h1>
+          <p>
+            Support to get the most from your banking and
+            <br/>
+            protect yourself
+          </p>
+
+      </div>
+
+
+      <div class="section" id="thirdSec">
+          <p><span class="mobBanking">UMB TBill4All</span>
+              <br/>
+              Invest on the go
+          </p>
+          <a href="productNservices.html.html"><button>Find Out More</button></a>
+
+      </div>
+
+
+    </div>
+
+ </div>
+
+
+
+
+
+
+
+
+        <script>
+            $(document).ready(function(){
+              $("#edb,#everydayB").hover(function(){
+                $("#everydayB").show();
+              }, function(){
+                  $("#everydayB").hide();
+              });
+
+                //stick when currentAccount is hovered
+              $("#currentAccount, #secondSec-cA").hover(function(){
+                $("#secondSec-cA").show();
+                $("#secondSec").hide();
+              }, function(){
+                $("#secondSec-cA").hide();
+                $("#secondSec").show();
+              });
+
+              //stick when savingsAccount is hovered
+            $("#savingsAccount,#secondSec-sA").hover(function(){
+              $("#secondSec-sA").show();
+              $("#secondSec").hide();
+            }, function(){
+              $("#secondSec-sA").hide();
+              $("#secondSec").show();
+            });
+
+            //stick when studentsavingsAccount is hovered
+            $("#studentSavingsAcc").hover(function(){
+              $("#thirdSec-ssA").show();
+
+            }, function(){
+              $("#thirdSec-ssA").hide();
+            });
+                /*student savings account*/
+                $("#thirdSec-ssA").hover(function(){
+                  $("#thirdSec-ssA").show();
+                },function(){
+                  $("#thirdSec-ssA").hide();
+                });
+
+                /* EveryDay Banking Menu - currentAccount */
+                /*adv current acc */
+
+              $("#advCurrentAcc,#secondSec-acA").hover(function(){
+                $("#secondSec-acA").show();
+                $("#secondSec-pcA").hide();
+              }, function(){
+                $("#secondSec-acA").hide();
+              });
+
+              $("#secondSec-acA").hover(function(){
+                $("#secondSec").hide();
+                $("#secondSec-acA").show();
+                $("#secondSec-cA").show();
+              });
+
+              /*Premier current account */
+              $("#prmCurrentAcc").hover(function(){
+                $("#secondSec-pcA").show();
+                $("#secondSec-acA").hide();
+              },function(){
+                $("#secondSec-pcA").hide();
+              });
+
+              $("#secondSec-pcA").hover(function(){
+                $("#secondSec-pcA").show();
+                $("#secondSec-cA").show();
+                $("#secondSec").hide();
+              });
+
+
+              /*Payments And Transfers Hover */
+              $("#pat,#paymentsNTransfers-menu").hover(function(){
+                $("#paymentsNTransfers-menu").show();
+              }, function(){
+                  $("#paymentsNTransfers-menu").hide();
+              });
+
+              /*Ways to bank Hover */
+              $("#wtb,#ways2bank-menu").hover(function(){
+                $("#ways2bank-menu").show();
+              }, function(){
+                  $("#ways2bank-menu").hide();
+              });
+
+              /*Products and Services Hover */
+              $("#pas,#prodNServices-menu").hover(function(){
+                $("#prodNServices-menu").show();
+              }, function(){
+                  $("#prodNServices-menu").hide();
+              });
+
+                  /*When CArds iH */
+                $("#cards").hover(function(){
+                  $("#secondSec-c").show();
+                  $("#secondSecPAS").hide();
+                },function(){
+                    $("#secondSec-c").hide();
+                    $("#secondSecPAS").show();
+                });
+
+                /*stick on hover-secondSec-C*/
+                $("#secondSec-c").hover(function(){
+                  $("#secondSec-c").show();
+                  $("#secondSecPAS").hide();
+                },function(){
+                  $("#secondSec-c").hide();
+                  $("#secondSecPAS").show();
+                });
+
+                /*When prepaidCards iH */
+              $("#prepaidCards").hover(function(){
+                $("#secondSec-cPC").show();
+
+              },function(){
+                $("#secondSec-cPC").hide();
+              });
+
+              /*stick on hover-secondSec-cPC*/
+              $("#secondSec-cPC").hover(function(){
+                $("#secondSec-cPC").show();
+                $("#secondSec-c").show();
+                $("#secondSecPAS").hide();
+              },function(){
+                $("#secondSec-cPC").hide();
+                $("#secondSec-c").hide();
+                $("#secondSecPAS").show();
+              });
+
+              /*When investment solutions iH */
+            $("#investSolutions").hover(function(){
+              $("#secondSec-is").show();
+              $("#secondSecPAS").hide();
+            },function(){
+                $("#secondSec-is").hide();
+                $("#secondSecPAS").show();
+            });
+
+            /*stick on hover-secondSec-is*/
+            $("#secondSec-is").hover(function(){
+              $("#secondSec-is").show();
+              $("#secondSecPAS").hide();
+            },function(){
+              $("#secondSec-is ").hide();
+              $("#secondSecPAS").show();
+            });
+
+
+
+              /*Help and security */
+              $("#has,#helpNSecurity-menu").hover(function(){
+                $("#helpNSecurity-menu").show();
+              },function(){
+                $("#helpNSecurity-menu").hide();
+              });
+
+
+              /*help centre hover- show this*/
+              $("#helpCentre").hover(function(){
+                  $("#secondSecc").hide();
+                $("#secondSec-hC").show();
+
+              },function(){
+                $("#secondSec-hC").hide();
+                $("#secondSecc").show();
+              });
+                /*stick on hover-secondSec-hC*/
+                $("#secondSec-hC").hover(function(){
+                  $("#secondSec-hC").show();
+                  $("#secondSecc").hide();
+                },function(){
+                  $("#secondSec-hC").hide();
+                  $("#secondSecc").show();
+                });
+
+              /*security centre hover*/
+              $("#securityCentre").hover(function(){
+                  $("#secondSecc").hide();
+                $("#secondSec-sC").show();
+
+              },function(){
+                $("#secondSec-sC").hide();
+                $("#secondSecc").show();
+              });
+
+                  /*Stick on hover-secondSec-sC*/
+                  $("#secondSec-sC").hover(function(){
+                    $("#secondSec-sC").show();
+                    $("#secondSecc").hide();
+                  },function(){
+                    $("#secondSec-sC").hide();
+                    $("#secondSecc").show();
+                  });
+
+
+            /*scams on hover*/
+            $("#scams").hover(function(){
+              $("#secondSec-sCs").show();
+            },function(){
+              $("#secondSec-sCs").hide();
+            });
+            /*Stick on hover-secondSec-sCs*/
+            $("#secondSec-sCs").hover(function(){
+              $("#secondSec-sCs").show();
+
+            },function(){
+              $("#secondSec-sCs").hide();
+
+            });
+
+            /*SecureBannking on hover*/
+            $("#secureBanking").hover(function(){
+              $("#secondSec-sCsb").show();
+            },function(){
+              $("#secondSec-sCsb").hide();
+            });
+            /*Stick on hover-secondSec-sC*/
+            $("#secondSec-sCsb").hover(function(){
+              $("#secondSec-sCsb").show();
+
+            },function(){
+              $("#secondSec-sCsb").hide();
+
+            });
+
+
+
+
+
+
+
+            });
+
+
+            /*When device screen is not laptop size */
+            $("#menu").click(function(){
+              if($("#loginContainer").css('display') == 'block' || $("#contactContainer").css('display') == 'block'){
+                $("#loginContainer").hide();
+                $("#contactContainer").hide();
+              } else {
+                $("#menuContainer").slideToggle();
+              }
+
+
+                /*Everyday Banking cliked*/
+              $("#edBanking").click(function(){
+                $("#menu-m").hide();
+                $("#menu-everydayB").show();
+
+              });
+
+              /*paymentsNTransfers cliked 2*/
+            $("#pNt").click(function(){
+              $("#menu-m").hide();
+              $("#menu-paymentsNTransfers").show();
+
+            });
+
+            /*ways2bank cliked 3*/
+            $("#wTb").click(function(){
+              $("#menu-m").hide();
+              $("#menu-ways2bank").show();
+
+            });
+
+            /*prodNServices cliked 3*/
+            $("#pAs").click(function(){
+              $("#menu-m").hide();
+              $("#menu-prodNServices").show();
+
+            });
+            /*pas-CArds cliked*/
+            $("#pns-cards").click(function(){
+              $("#menu-prodNServices").hide();
+              $("#menu-cardsPAS").show();
+
+            });
+            /*pas-CArds-prepaidCards cliked*/
+            $("#pns-cards-prepaidCards").click(function(){
+              $("#menu-cardsPAS").hide();
+              $("#menu-prepaidCardsPAS").show();
+
+            });
+            /*pas-investSolutions cliked*/
+            $("#pns-investSolutions").click(function(){
+              $("#menu-prodNServices").hide();
+              $("#menu-investSolutionsPAS").show();
+
+            });
+
+            /*helpNSecurity cliked 3*/
+            $("#hAs").click(function(){
+              $("#menu-m").hide();
+              $("#menu-helpNSecurity").show();
+
+            });
+            /*has-helpCentre cliked*/
+            $("#has-helpCentre").click(function(){
+                $("#menu-helpNSecurity").hide();
+                $("#menu-helpcentreHAS").show();
+              });
+              /*has-security centre cliked*/
+              $("#has-securityCentre").click(function(){
+                $("#menu-helpNSecurity").hide();
+                $("#menu-securitycentreHAS").show();
+              });
+              /*has-security centre- scams cliked*/
+              $("#sc-scams").click(function(){
+                $("#menu-securitycentreHAS").hide();
+                $("#menu-scamSC").show();
+              });
+              /*has-security centre- scams cliked*/
+              $("#sc-secureBanking").click(function(){
+                $("#menu-securitycentreHAS").hide();
+                $("#menu-secureSC").show();
+              });
+
+                /*current account  cliked*/
+                $("#currentAcc").click(function(){
+                  $("#menu-everydayB").hide();
+                  $("#menu-currentAccount").show();
+                });
+
+                /*Savings account  cliked*/
+                $("#savingsAcc").click(function(){
+                  $("#menu-everydayB").hide();
+                  $("#menu-savingsAcc").show();
+                });
+
+                /*Advantage current Account cliked*/
+                $("#advantageAcc").click(function(){
+                  $("#menu-currentAccount").hide();
+                  $("#menu-advCurrentAcc").show();
+
+                });
+
+                /*Premier current Account cliked*/
+                $("#premierAcc").click(function(){
+                  $("#menu-currentAccount").hide();
+                  $("#menu-premierCurrentAcc").show();
+
+                });
+
+                /*Back from advantage current acc*/
+                $("#menu-advCurrentAcc #back").click(function(){
+                  $("#menu-advCurrentAcc").hide();
+                  $("#menu-currentAccount").show();
+
+                });
+                /*Back from Premier current acc*/
+                $("#menu-premierCurrentAcc #backPA").click(function(){
+                  $("#menu-premierCurrentAcc").hide();
+                  $("#menu-currentAccount").show();
+
+                });
+
+                /*Back from  current acc*/
+                $("#menu-currentAccount #backCA").click(function(){
+                  $("#menu-currentAccount").hide();
+                  $("#menu-everydayB").show();
+
+                });
+                /*Back from  current acc*/
+                $("#menu-savingsAcc #backSA").click(function(){
+                  $("#menu-savingsAcc").hide();
+                  $("#menu-everydayB").show();
+
+                });
+
+                /*Back from  everyday acc*/
+                $("#menu-everydayB #backEB").click(function(){
+                  $("#menu-everydayB").hide();
+                  $("#menu-m").show();
+
+                });
+
+                /*Back from paymentsNTransfers*/
+                $("#menu-paymentsNTransfers #backPNT").click(function(){
+                  $("#menu-paymentsNTransfers").hide();
+                  $("#menu-m").show();
+
+                });
+                /*Back from ways2bank*/
+                $("#menu-ways2bank #backWTB").click(function(){
+                  $("#menu-ways2bank").hide();
+                  $("#menu-m").show();
+
+                });
+                /*Back from prodNServices*/
+                $("#menu-prodNServices #backPNS").click(function(){
+                  $("#menu-prodNServices").hide();
+                  $("#menu-m").show();
+                });
+                /*Back from prodNServices-cards*/
+                $("#menu-cardsPAS #backPNSCards").click(function(){
+                  $("#menu-cardsPAS").hide();
+                  $("#menu-prodNServices").show();
+                });
+                /*Back from prodNServices-cards-prepaidCards*/
+                $("#menu-prepaidCardsPAS #backPNSPreCards").click(function(){
+                  $("#menu-prepaidCardsPAS").hide();
+                  $("#menu-cardsPAS").show();
+                });
+
+                /*Back from prodNServices-investSolutions*/
+                $("#menu-investSolutionsPAS #backPNSinvestSoltions").click(function(){
+                  $("#menu-investSolutionsPAS").hide();
+                  $("#menu-prodNServices").show();
+                });
+
+
+                /*Back from help and security*/
+                $("#menu-helpNSecurity #backHAS").click(function(){
+                  $("#menu-helpNSecurity").hide();
+                  $("#menu-m").show();
+                });
+                /*Back from HAS-helpCentre*/
+              $("#menu-helpcentreHAS #backHAShelpcentre").click(function(){
+                $("#menu-helpcentreHAS").hide();
+                $("#menu-helpNSecurity").show();
+              });
+
+              /*Back from HAS-securityCentre*/
+              $("#menu-securitycentreHAS #backHASsecuritycentre").click(function(){
+                $("#menu-securitycentreHAS").hide();
+                $("#menu-helpNSecurity").show();
+              });
+              /*Back from HAS-securityCentre-scams*/
+              $("#menu-scamSC #backHASscam").click(function(){
+                $("#menu-scamSC").hide();
+                $("#menu-securitycentreHAS").show();
+              });
+              /*Back from HAS-securityCentre-secureBanking*/
+              $("#menu-secureSC #backHASsecurebanking").click(function(){
+                $("#menu-secureSC").hide();
+                $("#menu-securitycentreHAS").show();
+              });
+
+            });
+
+                    /*End of menu*/
+
+
+
+
+
+
+
+
+          </script>
+
+        </div>
+      </header>
+
+
+  <!--SHow this when menu is clicked-->
+ <div id="menuContainer">
+    <div id="menu-m" >
+      <div class="menu-items" id="home">
+          <a href="index.html"><p id="homee">Home</p></a>
+      </div>
+      <div class="menu-items" id="edBanking">
+          <p>Everyday Banking <i class="rightArrow">  </i> </p>
+      </div>
+      <div class="menu-items" id="pNt">
+          <p>Payments & Transfers <i class="rightArrow">  </i> </p>
+      </div>
+      <div class="menu-items" id="wTb">
+          <p>Ways to Bank <i class="rightArrow">  </i> </p>
+      </div>
+      <div class="menu-items" id="pAs">
+          <p>Products and Services <i class="rightArrow">  </i> </p>
+      </div>
+      <div class="menu-items" id="hAs">
+          <p>Help and Security <i class="rightArrow">  </i> </p>
+      </div>
+    </div>
+
+        <!-- for everyday Banking -->
+    <div id="menu-everydayB" class="menus">
+
+      <div class="menu-items" id="backEB">
+          <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="e">
+          <a href="everydaybank.html"><p>Everyday Banking </p></a>
+      </div>
+      <div class="menu-items" id="currentAcc">
+          <p>Current Accounts <i class="rightArrow">  </i> </p>
+      </div>
+      <div class="menu-items" id="savingsAcc">
+          <p>Savings Accounts <i class="rightArrow">  </i> </p>
+      </div>
+      <div class="menu-items" id="pas">
+          <a href="everydaybank.html"><p>e-Account</p></a>
+      </div>
+      <div class="menu-items" id="pas">
+          <a href="everydaybank.html"><p>Cards</p></a>
+      </div>
+      <div class="menu-items" id="pas">
+          <a href="everydaybank.html"><p>Loans</p></a>
+      </div>
+      <div class="menu-items" id="pas">
+          <a href="everydaybank.html"><p>Investment Solutions</p></a>
+      </div>
+
+    </div>
+      <!-- for Current Account -->
+    <div id="menu-currentAccount" class="menus">
+
+      <div class="menu-items" id="backCA">
+          <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="e">
+          <a href="everydaybank.html"><p>Current Accounts</p></a>
+      </div>
+      <div class="menu-items" id="pat">
+          <a href="everydaybank.html"><p>Classic Current Account </p></a>
+      </div>
+      <div class="menu-items" id="advantageAcc">
+          <p>Advantage Current Account <i class="rightArrow">  </i> </p>
+      </div>
+      <div class="menu-items" id="premierAcc">
+          <p>Premier Current Account <i class="rightArrow">  </i></p>
+      </div>
+      <div class="menu-items" id="pas">
+          <a href="everydaybank.html"><p>Diaspora Current Account</p></a>
+      </div>
+      <div class="menu-items" id="pas">
+          <a href="everydaybank.html"><p>student Current Account</p></a>
+      </div>
+    </div>
+    <!-- For Savings Account -->
+    <div id="menu-savingsAcc" class="menus">
+
+      <div class="menu-items" id="backSA">
+          <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="e">
+          <a href="everydaybank.html"><p>Savings Accounts</p></a>
+      </div>
+      <div class="menu-items" id="pat">
+          <a href="everydaybank.html"><p>UMB Savings Account</p></a>
+      </div>
+      <div class="menu-items" id="pat">
+          <a href="everydaybank.html"><p>Classic Savings Account</p></a>
+      </div>
+    </div>
+
+    <!-- For advantage Current account -->
+    <div id="menu-advCurrentAcc" class="menus" >
+
+      <div class="menu-items" id="back">
+          <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="e">
+          <a href="everydaybank.html"><p>Advantage Current Account</p></a>
+      </div>
+      <div class="menu-items" id="pat">
+          <a href="everydaybank.html"><a href="everydaybank.html"><p>Advantage Gold Card Rewards</p></a><a href="everydaybank.html"><a href="everydaybank.html">
+      </div>
+
+    </div>
+
+    <!-- For premierAcc Current account -->
+    <div id="menu-premierCurrentAcc" class="menus" >
+
+      <div class="menu-items" id="backPA">
+          <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="e">
+          <a href="everydaybank.html"><p>Premier Current Account</p></a>
+      </div>
+      <div class="menu-items" id="pat">
+          <a href="everydaybank.html"><a href="everydaybank.html"><p>Premier Platinum Card Rewards</p></a>
+      </div>
+
+    </div>
+
+
+    <!-- End for everyday Banking -->
+
+
+    <!-- for Payments And Transfers -->
+    <div id="menu-paymentsNTransfers" class="menus">
+
+      <div class="menu-items" id="backPNT">
+        <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="e">
+        <a href="payment&transfer.html"><p>Payments & Transfers</p></a>
+      </div>
+      <div class="menu-items" id="currentAcc">
+        <a href="payment&transfer.html"><p>Rapidtransfer</p></a>
+      </div>
+      <div class="menu-items" id="savingsAcc">
+        <a href="payment&transfer.html"><p>Remittance Partners</p></a>
+      </div>
+      <div class="menu-items" id="pas">
+        <a href="payment&transfer.html"><p>Foreign Exchange</p></a>
+      </div>
+
+    </div>
+
+    <!-- End for paymentsNTransfers -->
+
+  <!-- for Ways to bank -->
+     <div id="menu-ways2bank" class="menus">
+
+       <div class="menu-items" id="backWTB">
+          <p><i class="backArrow">  </i>Back </p>
+       </div>
+       <div class="menu-items" id="s">
+         <a href="waystobank.html"><p>Ways to Bank</p></a>
+       </div>
+       <div class="menu-items" id="currentAcc">
+         <a href="waystobank.html"><p>Internet Banking</p></a>
+       </div>
+       <div class="menu-items" id="savingsAcc">
+         <a href="waystobank.html"><p>ATMs</p></a>
+       </div>
+       <div class="menu-items" id="pas">
+         <a href="waystobank.html"><p>Cashless Payments (POS)</p></a>
+       </div>
+       <div class="menu-items" id="pas">
+         <a href="waystobank.html"><p>Branches</p></a>
+       </div>
+
+     </div>
+
+     <!-- for Current Account -->
+    <div id="menu-currentAccount" class="menus">
+
+      <div class="menu-items" id="backCA">
+        <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="e">
+        <a href="waystobank.html"><p>Current Accounts</p></a>
+      </div>
+      <div class="menu-items" id="pat">
+        <a href="waystobank.html"><p>Classic Current Account </p></a>
+      </div>
+      <div class="menu-items" id="advantageAcc">
+        <p>Advantage Current Account <i class="rightArrow">  </i> </p>
+      </div>
+      <div class="menu-items" id="premierAcc">
+        <a href="waystobank.html"><p>Premier Current Account <i class="rightArrow">  </i></p>
+      </div>
+      <div class="menu-items" id="pas">
+        <a href="waystobank.html"><p>Diaspora Current Account</p></a>
+      </div>
+      <div class="menu-items" id="pas">
+        <a href="waystobank.html"><p>student Current Account</p></a>
+      </div>
+    </div>
+    <!-- For Savings Account -->
+    <div id="menu-savingsAcc" class="menus">
+
+      <div class="menu-items" id="backSA">
+        <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="e">
+        <a href="waystobank.html"><p>Savings Accounts</p></a>
+      </div>
+      <div class="menu-items" id="pat">
+        <a href="waystobank.html"><p>UMB Savings Account</p></a>
+      </div>
+      <div class="menu-items" id="pat">
+        <a href="waystobank.html"><p>Classic Savings Account</p></a>
+      </div>
+    </div>
+
+    <!-- For advantage Current account -->
+    <div id="menu-advCurrentAcc" class="menus" >
+
+        <div class="menu-items" id="back">
+          <p><i class="backArrow">  </i>Back </p>
+        </div>
+        <div class="menu-items" id="e">
+          <a href="waystobank.html"><p>Advantage Current Account</p></a>
+        </div>
+        <div class="menu-items" id="pat">
+          <a href="waystobank.html"><p>Advantage Gold Card Rewards</p></a>
+        </div>
+
+      </div>
+
+      <!-- For premierAcc Current account -->
+      <!--For premierCurrentAcc -->
+    <div id="menu-premierCurrentAcc" class="menus" >
+
+      <div class="menu-items" id="backPA">
+        <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="e">
+        <a href="waystobank.html"><p>Premier Current Account</p></a>
+      </div>
+      <div class="menu-items" id="pat">
+        <a href="waystobank.html"><p>Premier Platinum Card Rewards</p></a>
+      </div>
+
+    </div>
+
+    <!-- End for Ways to bank -->
+
+    <!-- for Products and services -->
+    <div id="menu-prodNServices" class="menus">
+
+      <div class="menu-items" id="backPNS">
+        <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="s">
+        <a href="productNservices.html"><p>Products and Services</p></a>
+      </div>
+      <div class="menu-items" id="pns-cards">
+        <p>Cards <i class="rightArrow"></i></p>
+      </div>
+      <div class="menu-items" id="savingsAcc">
+        <a href="productNservices.html"><p>Loans</p></a>
+      </div>
+      <div class="menu-items" id="pas">
+        <a href="productNservices.html"><p>Payments & Transfers</p></a>
+      </div>
+      <div class="menu-items" id="pas">
+      <a href="productNservices.html">  <p>Hajj Financial Services</p></a>
+      </div>
+      <div class="menu-items" id="pas">
+        <a href="productNservices.html"><p>Bancassurance</p></a>
+      </div>
+      <div class="menu-items" id="pns-investSolutions">
+        <p>Investment Solutions <i class="rightArrow"></i></p>
+      </div>
+      <div class="menu-items" id="pas">
+        <a href="productNservices.html"><p>e-Products</p></a>
+      </div>
+      <div class="menu-items" id="pas">
+      <a href="productNservices.html">  <p>Microfinance</p></a>
+      </div>
+      <div class="menu-items" id="pas">
+        <a href="productNservices.html"><p>Term Deposit</p></a>
+      </div>
+
+    </div>
+    <!-- for pas-CArds -->
+    <div id="menu-cardsPAS" class="menus">
+
+      <div class="menu-items" id="backPNSCards">
+        <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="s">
+        <a href="productNservices.html"><p>Card Security - 3D secure</p></a>
+      </div>
+      <div class="menu-items" id="pns-cards">
+        <a href="productNservices.html"><p>Cards</p></a>
+      </div>
+      <div class="menu-items" id="savingsAcc">
+        <a href="productNservices.html"><p>Debit Cards</p></a>
+      </div>
+      <div class="menu-items" id="pas">
+        <a href="productNservices.html"><p>Credit Cards</p></a>
+      </div>
+      <div class="menu-items" id="pns-cards-prepaidCards">
+        <p>Prepaid Cards <i class="rightArrow"></i></p>
+      </div>
+      <div class="menu-items" id="pas">
+        <a href="productNservices.html"><a href="productNservices.html"><p>PAC Cards</p></a>
+      </div>
+      <div class="menu-items" id="pas">
+        <a href="productNservices.html"><a href="productNservices.html"><a href="productNservices.html"><p>Visa</p></a>
+      </div>
+      <div class="menu-items" id="pas">
+        <a href="productNservices.html"><p>Mastercard</p></a>
+      </div>
+
+    </div>
+
+    <!-- for pas-prepaidCards -->
+    <div id="menu-prepaidCardsPAS" class="menus">
+
+      <div class="menu-items" id="backPNSPreCards">
+        <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="s">
+        <a href="productNservices.html"><p>Prepaid Cards</p></a>
+      </div>
+      <div class="menu-items" id="pns-cards">
+        <a href="productNservices.html"><p>CashXpress</p></a>
+      </div>
+      <div class="menu-items" id="savingsAcc">
+        <a href="productNservices.html"><p>Salary Express</p></a>
+      </div>
+
+    </div>
+    <!-- for pas-investSolutions -->
+    <div id="menu-investSolutionsPAS" class="menus">
+
+      <div class="menu-items" id="backPNSinvestSoltions">
+        <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="s">
+        <a href="productNservices.html"><p>Investment Solutions</p></a>
+      </div>
+      <div class="menu-items" id="pns-cards">
+        <a href="productNservices.html"><p>Fixed Income Fund</p></a>
+      </div>
+      <div class="menu-items" id="savingsAcc">
+        <a href="productNservices.html"><p>Money Market Fund</p></a>
+      </div>
+      <div class="menu-items" id="pas">
+        <a href="productNservices.html"><p>Securities Trading Platform</p></a>
+      </div>
+      <div class="menu-items" id="pas">
+        <a href="productNservices.html"><p>UMB TBILL4ALL</p></a>
+      </div>
+
+    </div>
+
+    <!-- for Current Account -->
+    <div id="menu-currentAccount" class="menus">
+
+      <div class="menu-items" id="backCA">
+        <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="e">
+        <a href="productNservices.html"><p>Current Accounts</p></a>
+      </div>
+      <div class="menu-items" id="pat">
+        <a href="productNservices.html"><p>Classic Current Account </p></a>
+      </div>
+      <div class="menu-items" id="advantageAcc">
+        <p>Advantage Current Account <i class="rightArrow">  </i> </p>
+      </div>
+      <div class="menu-items" id="premierAcc">
+        <p>Premier Current Account <i class="rightArrow">  </i></p>
+      </div>
+      <div class="menu-items" id="pas">
+        <a href="productNservices.html"><p>Diaspora Current Account</p></a>
+      </div>
+      <div class="menu-items" id="pas">
+        <a href="productNservices.html"><p>student Current Account</p></a>
+      </div>
+    </div>
+    <!-- For Savings Account -->
+    <div id="menu-savingsAcc" class="menus">
+
+      <div class="menu-items" id="backSA">
+        <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="e">
+        <a href="productNservices.html"><p>Savings Accounts</p></a>
+      </div>
+      <div class="menu-items" id="pat">
+        <a href="productNservices.html"><a href="productNservices.html"><p>UMB Savings Account</p></a>
+      </div>
+      <div class="menu-items" id="pat">
+        <a href="productNservices.html"><a href="productNservices.html"><a href="productNservices.html"><p>Classic Savings Account</p></a>
+      </div>
+    </div>
+
+    <!-- For advantage Current account -->
+    <div id="menu-advCurrentAcc" class="menus" >
+
+      <div class="menu-items" id="back">
+        <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="e">
+        <a href="productNservices.html"><p>Advantage Current Account</p></a>
+      </div>
+      <div class="menu-items" id="pat">
+        <a href="productNservices.html"><p>Advantage Gold Card Rewards</p></a>
+      </div>
+
+    </div>
+
+    <!-- For premierAcc Current account -->
+    <div id="menu-premierCurrentAcc" class="menus" >
+
+      <div class="menu-items" id="backPA">
+        <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="e">
+        <a href="productNservices.html"><p>Premier Current Account</p></a>
+      </div>
+      <div class="menu-items" id="pat">
+        <a href="productNservices.html"><p>Premier Platinum Card Rewards</p></a>
+      </div>
+
+    </div>
+
+    <!-- End for PRoduct and services -->
+
+
+    <!-- for Help and security -->
+
+    <div id="menu-helpNSecurity" class="menus">
+
+      <div class="menu-items" id="backHAS">
+        <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="s">
+        <a href="helpNsecurity.html"><p>Help and Security</p></a>
+      </div>
+      <div class="menu-items" id="has-helpCentre">
+        <p>Help Centre <i class="rightArrow"></i></p>
+      </div>
+      <div class="menu-items" id="has-securityCentre">
+        <p>Security Centre<i class="rightArrow"></i></p>
+      </div>
+      <div class="menu-items" id="pas">
+        <a href="helpNsecurity.html"><p>Customer Feedback</p></a>
+      </div>
+      <div class="menu-items" id="pas">
+        <a href="helpNsecurity.html"><p>Privacy Notice</p></a>
+      </div>
+
+    </div>
+
+    <!-- for has-helpCentre -->
+    <div id="menu-helpcentreHAS" class="menus">
+
+      <div class="menu-items" id="backHAShelpcentre">
+        <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="s">
+        <a href="helpNsecurity.html"><p>Help Centre</p></a>
+      </div>
+      <div class="menu-items" id="pns-cards">
+        <a href="helpNsecurity.html"><p>Cards</p></a>
+      </div>
+      <div class="menu-items" id="savingsAcc">
+        <a href="helpNsecurity.html"><p>Help FAQs</p></a>
+      </div>
+      <div class="menu-items" id="pas">
+        <a href="helpNsecurity.html"><p>Tips and Advice</p></a>
+      </div>
+
+    </div>
+
+    <!-- for has-securityCentre-scam Menu- -->
+    <div id="menu-scamSC" class="menus">
+
+      <div class="menu-items" id="backHASscam">
+        <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="s">
+        <a href="helpNsecurity.html"><p>Scams</p></a>
+      </div>
+      <div class="menu-items" id="pns-cards">
+      <a href="helpNsecurity.html">  <p>Phishing</p></a>
+      </div>
+      <div class="menu-items" id="savingsAcc">
+        <a href="helpNsecurity.html"><p>Spoof Website</p></a>
+      </div>
+      <div class="menu-items" id="pas">
+        <a href="helpNsecurity.html"><p>419 scam</p></a>
+      </div>
+      <div class="menu-items" id="pns-cards-prepaidCards">
+        <a href="helpNsecurity.html"><p>Keyloggers </p></a>
+      </div>
+
+    </div>
+
+    <!-- for has-securityCentre-secureBanking Menu- -->
+    <div id="menu-secureSC" class="menus">
+
+      <div class="menu-items" id="backHASsecurebanking">
+        <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="s">
+        <a href="helpNsecurity.html"><p>Secure Banking</p></a>
+      </div>
+      <div class="menu-items" id="pns-cards">
+        <a href="helpNsecurity.html"><p>PC Security</p></a>
+      </div>
+      <div class="menu-items" id="savingsAcc">
+        <a href="helpNsecurity.html"><a href="helpNsecurity.html"><p>Internet in public places</p></a>
+      </div>
+      <div class="menu-items" id="pas">
+        <a href="helpNsecurity.html"><p>Wi-fi</p></a>
+      </div>
+      <div class="menu-items" id="pns-cards-prepaidCards">
+        <a href="helpNsecurity.html"><p>Virus awareness </p></a>
+      </div>
+      <div class="menu-items" id="pns-cards-prepaidCards">
+        <a href="helpNsecurity.html"><p>Identity theft </p></a>
+      </div>
+      <div class="menu-items" id="pns-cards-prepaidCards">
+        <a href="helpNsecurity.html"><p>Internet Banking </p></a>
+      </div>
+      <div class="menu-items" id="pns-cards-prepaidCards">
+        <a href="helpNsecurity.html"><p>ATM Fraud </p></a>
+      </div>
+      <div class="menu-items" id="pns-cards-prepaidCards">
+        <a href="helpNsecurity.html"><p>Mobile phone banking </p></a>
+      </div>
+      <div class="menu-items" id="pns-cards-prepaidCards">
+        <a href="helpNsecurity.html"><p>Security Contact Numbers </p></a>
+      </div>
+      <div class="menu-items" id="pns-cards-prepaidCards">
+        <a href="helpNsecurity.html"><p>Card Security </p></a>
+      </div>
+
+    </div>
+
+    <!-- for has-securityCentre -->
+    <div id="menu-securitycentreHAS" class="menus">
+
+      <div class="menu-items" id="backHASsecuritycentre">
+        <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="s">
+        <a href="helpNsecurity.html"><p>Security Centre</p></a>
+      </div>
+      <div class="menu-items" id="pns-cards">
+        <a href="helpNsecurity.html"><p>Contact Security</p></a>
+      </div>
+      <div class="menu-items" id="savingsAcc">
+        <a href="helpNsecurity.html"><p>Security Tips</p></a>
+      </div>
+      <div class="menu-items" id="sc-scams">
+        <p>Scams <i class="rightArrow"></i></p>
+      </div>
+      <div class="menu-items" id="sc-secureBanking">
+        <p>Secure Banking<i class="rightArrow"></i></p>
+      </div>
+      <div class="menu-items" id="savingsAcc">
+        <a href="helpNsecurity.html"><p>Trusteer</p></a>
+      </div>
+      <div class="menu-items" id="savingsAcc">
+        <a href="helpNsecurity.html"><p>Security FAQs</p></a>
+      </div>
+      <div class="menu-items" id="savingsAcc">
+        <a href="helpNsecurity.html"><p>Report a Scam</p></a>
+      </div>
+
+    </div>
+    <!-- for has-securityCentre-scam Menu- -->
+    <div id="menu-scamSC" class="menus">
+
+      <div class="menu-items" id="backHASscam">
+        <p><i class="backArrow">  </i>Back </p>
+      </div>
+      <div class="menu-items" id="s">
+        <a href="helpNsecurity.html"><p>Scams</p></a>
+      </div>
+      <div class="menu-items" id="pns-cards">
+      <a href="helpNsecurity.html">  <p>Phishing</p></a>
+      </div>
+      <div class="menu-items" id="savingsAcc">
+        <a href="helpNsecurity.html"><p>Spoof Website</p></a>
+      </div>
+      <div class="menu-items" id="pas">
+        <a href="helpNsecurity.html"><p>419 scam</p></a>
+      </div>
+      <div class="menu-items" id="pns-cards-prepaidCards">
+        <a href="helpNsecurity.html"><p>Keyloggers </p></a>
+      </div>
+
+    </div>
+      <!-- End forHElp and security -->
+
+ </div>
+<!--End of menu -->
+
+  <!--Show this when login is clicked-->
+  <div id="loginContainer" class="everymenu">
+    <p class="LC-title"><img src="img/keyyy.png"> Login to Internet Banking</p>
+
+      <a href="umblogs.html"><p id="LC-personal" class="LC-p">Personal</p></a>
+      <p id="LC-omni"  class="LC-p">Omni</p>
+
+    <p class="LC-title">Login</p>
+      <a href="waystobank.html"><p class="LC-p"> Trading </p></a>
+      <a href="helpNsecurity.html"><p class="LC-p"> Rapidtransfer Online </p></a>
+      <a href="helpNsecurity.html"><p class="LC-p"> CashXpress </p></a>
+
+  </div>
+
+  <!--Show this when Contact is clicked-->
+  <div id="contactContainer" class="everymenu">
+
+    <a href="helpNsecurity.html"><p class="LC-title"><img src="img/tele.png"> Contact</p></a>
+
+  </div>
+
+
+  <!--Body Contents-->
+
+  <div id="direction">
+    <p>
+      <a href="index.html">Home</a> -
+      <a href="contact.html"><span>Contact</span></a>
+    </p>
+  </div>
+  <div id="imageBack">
+  <div id="first-everyday" class="containers">
+    <h2>Contact</h2>
+    <p>
+      Are you having any issues with our services? <br/>
+      Kindly contact us.
+    </p>
+
+  </div>
+  </div>
+  <div id="second-everyday" class="containers">
+
+    <div class="second-boxes">
+      <h2>UMB Electronic Mail</h2>
+      <p>
+        To make enquiries send us an email<br/><br/>
+        umbank@solution4u.com
+      </p>
+    </div>
+    <div class="second-boxes">
+      <h2>Customer care</h2>
+      <p>
+        Are you trying to create a bank account? <br/><br/>
+        Please visit our nearest branch
+      </p>
+    </div>
+
+
+    <div class="second-boxes" id="second-black">
+      <h2>Registered Customers</h2>
+      <p>
+         You can get live support through our mobile App
+      </p>
+    </div>
+
+    <div class="second-boxes" >
+      <h2>Account Locked</h2>
+      <p>
+         Visit our nearest branch
+      </p>
+    </div>
+    <div class="second-boxes">
+      <h2>Branches</h2>
+      <p>
+        Friendly, helpful banking advice, wherever you are <br/><br/>
+        Take a visit.
+      </p>
+    </div>
+
+
+
+
+  </div>
+
+
+  <div id="eigth">
+    <h3>Find a service</h3>
+    <p>Find a service closer to you</p>
+    <span>Find one near you</span>
+    <button> Find a Service</button>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d424141
+    .6978944982!2d150.93197474999997!3d-33.84824394999999!2m3!1f0!2f0!3f0!3m2
+    !1i1024!2i768!4f13.1!3m3!1m2!1s0x6b129838f39a743f%3A0x3017d681632a850!2sSydney
+    +NSW%2C+Australia!5e0!3m2!1sen!2sgh!4v1533941600059" width="600"
+    height="450" frameborder="0" style="border:0" allowfullscreen>
+    </iframe>
+
+
+  </div>
+
+  <div id="ninth">
+    <span>
+      <img src="img/arrow-up.png">
+      <p>Back to Top</p>
+    </span>
+  </div>
+
+
+
+
+            <!-- small screen THIRD SWIPE LEFT  EverydayBAnking -->
+
+    <script>
+        $("#second-paymentsNTransfers").click(function(){
+          $("#third-paymentsNTransfers").show();
+          $("#third-everydayB").hide();
+          $("#third-ways2bank").hide();
+
+          /*Style */
+          $("#second-paymentsNTransfers p").css("background","rgb(244,120,44)");
+          $("#second-paymentsNTransfers .triangle-down").css("border-top-color","rgb(244,120,44)");
+
+          /*Style not*/
+          $("#second-everydayBanking  p, #second-ways2bank p").css("background","transparent");
+          $("#second-everydayBanking  i, #second-ways2bank i").css("border-top-color","transparent");
+
+
+        });
+
+        $("#second-ways2bank").click(function(){
+          $("#third-ways2bank").show();
+          $("#third-paymentsNTransfers").hide();
+          $("#third-everydayB").hide();
+
+          /*Style */
+          $("#second-ways2bank p").css("background","rgb(244,120,44)");
+          $("#second-ways2bank .triangle-down").css("border-top-color","rgb(244,120,44)");
+
+          /*Style not*/
+          $("#second-everydayBanking  p, #second-paymentsNTransfers p").css("background","transparent");
+          $("#second-everydayBanking  i, #second-paymentsNTransfers i").css("border-top-color","transparent");
+
+        });
+
+        $("#second-everydayBanking").click(function(){
+          $("#third-everydayB").show();
+          $("#third-paymentsNTransfers").hide();
+          $("#third-ways2bank").hide();
+
+          /*Style */
+          $("#second-everydayBanking p").css("background","rgb(244,120,44)");
+          $("#second-everydayBanking .triangle-down").css("border-top-color","rgb(244,120,44)");
+
+          /*Style not*/
+          $("#second-ways2bank  p, #second-paymentsNTransfers p").css("background","transparent");
+          $("#second-ways2bank  i, #second-paymentsNTransfers i").css("border-top-color","transparent");
+
+
+        });
+
+
+
+    </script>
+
+
+
+
+
+
+
+  <div id="footerContainer">
+        <h2>UMB Banking<h2>
+        <p><i class="footer-rightArrow"></i> Group Banking</p>
+        <a href="corporateNInvestment.html"><p><i class="footer-rightArrow"></i> Corporate and Investment Banking</p></a>
+        <a href="commercial.html"><p><i class="footer-rightArrow"></i>Commercial Banking</p></a>
+        <a href="helpNsecurity.html"><p><i class="footer-rightArrow"></i> Security</p></a>
+        <a href="contact.html"><p><i class="footer-rightArrow"></i> Help Centre</p></a>
+        <a href="contact.html"><p><i class="footer-rightArrow"></i> Contact</p></a>
+
+        <div id="country">
+
+
+        <button>Find out more</button>
+        </div>
+
+        <div id="footer-bottom">
+          <a href="#" class="fa fa-youtube"></a>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+
+          <hr/>
+
+          <p>Privacy policy</p> <p>Terms of Use</p> <p>Sitemap</p>
+          <p>Extranet</p> <p>Whistleblowing</p>
+
+          <p id="copyright">© UMB 2018</p>
+        </div>
+
+
+  </div>
+</body>
+</html>
